@@ -1,10 +1,5 @@
 
 
-header {
-	background-image: url(Documents/Odin/html1/images/header-image.jpg);
-	background-color: blue;
-}
-
-body {
-	background-color: gray;
+header{
+  background-image: url("../images/header-image.jpg");
 }
