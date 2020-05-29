@@ -152,7 +152,10 @@ a:link
 
 #beneficios{
 	background-color: #0076b9;
-	height: 680px;
+	height: 700px;
+    margin-left: -8px;
+    margin-right: -8px;
+
 }
 
 #beneficios-titulo{
@@ -165,11 +168,13 @@ a:link
 
 #torta-top{
 	padding-bottom: -10px;
+	margin-left: -8px;
+    
 }
 .separador{
 	height: 4px;
 	margin-top: 5px;
-
+	margin-bottom: 15px;
 	background: linear-gradient(to right,#81d742, #1e73be);
 }
 
@@ -242,6 +247,12 @@ a:link
     padding-top:100px; 
     padding-bottom:5px; 
     text-align:left;
+    margin-right: -8px;
+
+}
+
+#torta-bottom{
+	margin-right: -8px;
 }
 
 
@@ -261,6 +272,8 @@ a:link
     color: #0076b9;
     display: inline-block!important;
     height: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .dezenove{
