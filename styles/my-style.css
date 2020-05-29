@@ -1,10 +1,18 @@
 html{
-	font-family: "Montserrat"; "sans-serif";
+	
+
 }
 
 
 body{
-	margin: 0px;
+	
+	background-color: gray;
+	opacity: 0.9;
+	
+	font-family: 'Montserrat', sans-serif;
+    color: #002350;
+    font-size: 16px;
+    font-weight: 400;
 	
 
 }
@@ -15,9 +23,11 @@ img {
 
 header{
 	margin-top: -16px;
-  background-image: url("../images/header-image.jpg");
-  height: 380px;
-  padding-top: 0px;	
+    background-image: url("../images/header-image.jpg");
+    height: 380px;
+    padding-top: 0px;	
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 #logo{
@@ -78,15 +88,42 @@ header{
 }
 
 
-#beneficios figure{
-	margin-left: auto;
-	padding-left: auto;
-    float: left;
-    width: 30%;
-    height: 100px;
-    display: inline;
+
+
+.column{
+
+  float: left;
+  width: 10%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
+.icon{
+	float:left;
+	
+	max-width:20%; 
+
+}
+
+
+.text{
+
+}
+
+#beneficios figure{
+	margin-left: 30px;
+	margin-bottom: 20px;
+	padding-left: auto;
+    float: left;
+    width: 25%;
+    height: 100px;
+    
+}
+
+
+#dominando{
+	clear: both;
+}
 
 #negocios{
 	clear: left;
@@ -97,8 +134,19 @@ header{
 
 
 
+#internacional{
 
+}
 
+#int {
+	float: left;
+	width: 45%;
+}
+
+#invest{
+	float: left;
+	width: 45%;
+}
 
 
 
@@ -107,17 +155,25 @@ header{
 
 
 footer{
+	clear: both;
+	height: 350px;
 	
-	height: 250px;
-	background-color: black;li
+	width: 100%;
+
+
+}
 	
 
 
 
 
 #logos {
-	margin-left: auto;
-	margin-right: auto;
+
+	background-color: black;
+	margin-right: -20px; 
+	margin-left: -20px;
+	height: 300px;
+
 }
 	
 }
@@ -167,11 +223,12 @@ footer{
 
 #baixo{
 	background-color: black;
+	clear: both;
 
 }
 #cop{
 	color: white;
-    clear: left;
+    clear: both;
     text-align: center;
     padding-top: 60px;
 }
