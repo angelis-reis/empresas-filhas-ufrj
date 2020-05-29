@@ -35,9 +35,7 @@ p{
     margin-bottom: 15px;
 }
 
-body{
-	
-		
+body{		
 	font-family: 'Montserrat', sans-serif;
     color: #002350;
     font-size: 16px;
@@ -66,7 +64,6 @@ header{
 	margin-left: -11px;
 }
 
-
 #links ul{
 	padding: 0px;
 	margin: 0px;
@@ -74,7 +71,6 @@ header{
 	list-style-type: none;
 	margin-top: 0px;
 	margin-right: 15px;
-
 }
 
 #links li{
@@ -97,13 +93,12 @@ a:link
     text-transform: uppercase;
     line-height: 140px;
 }
+
 #links a:hover{
 	font-size: 13px;
 	color: #ADFF2F;
 }
     
-
-
 #botao{
 	border-radius: 15px;
     border-style: solid;
@@ -118,7 +113,6 @@ a:link
 
 #botao:hover{
 	background-color: #0469ff
-
 }
 
 #cabecalho{
@@ -131,8 +125,6 @@ a:link
     margin-right: auto;
 	text-align: center;
 	color: #FFFFFF;
-
-
 }
 
 #title-large{
@@ -155,22 +147,20 @@ a:link
 	height: 700px;
     margin-left: -8px;
     margin-right: -8px;
-
 }
 
 #beneficios-titulo{
 	text-align: center;
 	color: #fff;
-	margin-top: -4px;
-	
+	margin-top: -4px;	
 }
 
 
 #torta-top{
 	padding-bottom: -10px;
-	margin-left: -8px;
-    
+	margin-left: -8px;    
 }
+
 .separador{
 	height: 4px;
 	margin-top: 5px;
@@ -183,55 +173,42 @@ a:link
   margin-bottom: 16px;
   padding: 0 8px;
   box-sizing: border-box;
-  float: left;
-  
+  float: left;  
 }
 
 .column h4{
 	color: #fff;
 	
 	padding: 15px 0px 10px 120px;
-	
-
-
 }
 
 .column p{
-	color: #fff;
-	
+	color: #fff;	
 }
 
 .icon{	
 	max-width:20%; 
-	float: left;
-	
+	float: left;	
 }
 
 #text1{	
 	color: #fff;
-	padding-top: 16px;
-	
+	padding-top: 16px;	
 }
 
 #text2{	
-	color: #fff;
-	
-	
+	color: #fff;	
 }
 
 #text3{	
-	color: #fff;
-	
-	
+	color: #fff;	
 }
 
 .column img{
-	width: 100%;	 
-	 
+	width: 100%;		 
 }
 
-.icon-text{
-	
+.icon-text{	
 }
 
 #h4-text3{
@@ -248,7 +225,6 @@ a:link
     padding-bottom:5px; 
     text-align:left;
     margin-right: -8px;
-
 }
 
 #torta-bottom{
@@ -304,14 +280,12 @@ a:link
 	float: left;
 	width: 50%;
 	text-align: center;
-
 }
 
 .graficos2{
 	float: left;
 	
 	text-align: center;
-
 }
 
 footer{
@@ -380,4 +354,3 @@ footer{
     font-weight: 700;
     text-transform: uppercase;
 }
-
