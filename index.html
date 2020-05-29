@@ -18,45 +18,63 @@ static clone -->
 	<body>
 
 		<header>
+
+
 			<div id="cabecalho">
 				<figure>
 					<img id="logo" src="images/logo.png" alt="Logo Unicamp Ventures">
 				</figure>
 				<nav id="links">
 					<ul id="list">
-						<li><a target="_blank"  href="">Entenda a UV</a></li>
+						<li><a target="_blank"  href="">Entenda o UV</a></li>
 						<li><a target="_blank"  href="">Empresas Filhas</a></li>
-						<li><a target="_blank"  href=""> Empresas Filhas</a></li>
+						<li><a target="_blank"  href="">Empresas Filhas</a></li>
 						<li><a target="_blank"  href="">CARDÁPIO UV</a></li>
 						<li><a target="_blank"  href="">EVENTOS</a></li>
 						<li><a target="_blank"  href="">NOTÍCIAS</a></li>
-						<li><a target="_blank"  href="">CONTATO</a></li>
-						<li><a target="_blank"  href="https://facebook.com">Facebook</a></li>
-						<li><a target="_blank"  href="https://linkedin.com">LINKEDIN</a></li>
+						<li><a target="_blank"  href="">CONTATO</a></li>					
+						<li><a target="_blank"  href="https://facebook.com"><img src="images/face-icon.png"width="15" height="15"></a></li>
+						<li><a target="_blank"  href="https://linkedin.com"><img src="images/linkedin-icon.png" width="15" height="15"></a></li>
 					</ul>
 				</nav>
 			</div>	
 			<div id="title">
 				<span>
-					<p>EMPRESA FILHA DA UNICAMP </p>
+					<h1 id="title-large">EMPRESA-FILHA DA UNICAMP </h1>
 				</span>						
 			</div>
 		</header>
 		
 		<section> 
 			<div id="subtitle">
-				<p> Se você é aluno, ex-aluno, docente, funcionário, incubado ou graduado da Incamp 
+				<h4> Se você é aluno, ex-aluno, docente, funcionário, incubado ou graduado da Incamp 
 					(Incubadora de Empresas de Base Tecnológica da Unicamp)
-				 e tem um negócio, você tem uma <strong>empresa-filha da Unicamp</strong> e pode participar de nossas atividades!</p> 
-				<form action="https://google.com/forms" target="_blank">
-					<input type="submit" value="Inscreva-se e faça parte de nossa rede" />
+				 e tem um negócio, você tem uma empresa-filha da Unicamp e pode participar de nossas atividades!</h4> 
+				<form  action="https://google.com/forms" target="_blank">
+					<input id="botao" type="submit" value="Inscreva-se e faça parte de nossa rede" />
 				</form>				
 			</div>
 		</section>
 		
-		<section id="beneficios"> 
-			<h2 id="beneficios-titulo"> BENEFÍCIOS QUE SÓ AS EMPRESAS-FILHAS CADASTRADAS TÊM! </h2>	
 
+
+		<div id="torta-top">				
+			<svg class="angled-section svg-top" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86">
+    		<polygon points="0,0 0,86 86,86" style="fill:#0076b9;"></polygon></svg>
+		</div>
+
+
+
+
+		<section id="beneficios"> 
+
+
+
+
+			<h2 id="beneficios-titulo"> <strong>BENEFÍCIOS QUE SÓ AS EMPRESAS-FILHAS <br>CADASTRADAS TÊM! </strong></h2>	
+			<div class="separador">
+				
+			</div>	
 			<div class="column">
 
 				<figure>
@@ -107,62 +125,72 @@ static clone -->
 			</div>	
 		</section>	
 
-		<section id="dominando" /> 
-			<h1>DOMINANDO O MUNDO!</h1>
-			<div>
-				<h2>Empresas-filhas cadastradas</h2>
-				<h1>815</h1>
-				<h3>Empresas-filhas cadastradas em 2019</h3>
+		<section>
+			<div id="torta-bottom">
+				
+				<svg class="angled-section svg-bottom" preserveAspectRatio="none" viewBox="0 0 86 86" width="100%" height="86"><polygon points="0,0 86,0 86,86" style="fill:#0076b9;"></polygon></svg>
+
+			</div>
+		</section>
+
+		<section class="clear"> 
+			<h2 id="dominando-titulo"><strong>DOMINANDO O MUNDO!</strong></h2>
+			<div class="separador">				
+			</div>	
+			<div class="graficos">
+				<h4>Empresas-filhas cadastradas</h4>
+				<h1 class="numero">815</h1>
+				<p class="dezenove">Empresas-filhas cadastradas em 2019</p>
 				<img src="images/empresas-cadastradas.png" alt="Grafico das empresas-filhas cadastradas em 2019">
 			</div>
-			<div>
-				<h2>Empresas-filhas ativas no mercado</h2>
-				<h1>717</h1>
-				<h3>Empresas-filhas ativas em 2019</h3>
+			<div class="graficos">
+				<h4>Empresas-filhas ativas no mercado</h4>
+				<h1 class="numero">717</h1>
+				<p class="dezenove">Empresas-filhas ativas em 2019</p>
 				<img src="images/empresas-ativas.png" alt="Grafico das empresas-filhas ativas em 2019" >
 			</div>
 		</section>
 
-		<section> 
-			<div>
-				<h2>EMPREGOS GERADOS</h2>
+		<section class="clear"> 
+			<div class="graficos">
+				<h4>Empregos gerados</h4>
 				<img src="images/empregos-gerados.png" alt="Grafico dos empregos gerados.">
 			</div>
-			<div>
-				<h1>31343</h1>
-				<h4>EMPREGOS GERADOS EM 2019</h4>
-				<h2>MMAIS DE R$ 7,9 BILHÕES EM FATURAMENTO EM 2019</h2>
+			<div class="graficos">
+				<h1 class="numero">31343</h1>
+				<p class="empregos">EMPREGOS GERADOS EM 2019</p>
+				<h2>MAIS DE <strong><span id="bilhoes">R$ 7,9 BILHÕES</span></strong> EM FATURAMENTO EM 2019</h2>
 			</div>
 		</section>	
 
-		<section> 
-			<div>
-				<h1>Empresas-filhas por área de atuação</h1>
+		<section class="clear"> 
+			<div class="graficos">
+				<h4>Empresas-filhas por área de atuação</h4>
 				<img src="images/grafico-area-atuacao.png" alt="gráfico com áeras de atuação das empresas-filhas.">
 			</div>
-			<div>
-				<h1>Empresas-filhas por unidade de origem</h1>
+			<div class="graficos">
+				<h4>Empresas-filhas por unidade de origem</h4>
 				<img src="images/grafico-unidade.png" alt="gráfico com as unidades de origem das empresas-filhas">
 			</div>
 		</section>		
 
-		<section> 
-			<div>
-				<h1>Distribuição por região</h1>
+		<section class="clear"> 
+			<div class="graficos">
+				<h4><strong>Distribuição por região</strong></h4>
 				<img src="images/mapa.png" alt="mapa com distribuição das empresas-filhas." >
 			</div>			
-			<div>
-				<h1>Localização</h1>
+			<div class="graficos">
+				<h4><strong>Localização</strong></h4>
 				<img src="images/localizacao.png" alt="Grafico com localização das sedes por regiões do Brasil." >
 			</div>
 		</section>
 		
-		<section id="internacional"> 
-			<div>
+		<section id="internacional" class="clear"> 
+			<div class="graficos2">
 				<img id="int" src="images/internacional.png" alt="grafico com atuação internacional das empresas-filhas." >
 			</div>
 			
-			<div>
+			<div class="graficos2">
 				<img id="invest" src="images/investimento.png" alt="Grafico com tipos de investimento das empresas-filhas." >
 			</div>
 		</section>	
@@ -173,8 +201,8 @@ static clone -->
 				<img id ="logo-inova" src="images/logo-inova.png" alt="Logo Inova Unicamp">
 				<nav id="social">
 					<ul>					
-						<li><a target="_blank"  href="https://facebook.com">Facebook</a></li>
-						<li><a target="_blank"  href="https://linkedin.com">LINKEDIN</a></li>
+						<li><a target="_blank"  href="https://facebook.com"><img src="images/face-icon.png"width="15" height="15"></a></li>
+						<li><a target="_blank"  href="https://linkedin.com"><img src="images/linkedin-icon.png" width="15" height="15"></a></li>
 					</ul>
 				</nav>	
 				<p id="cop">© COPYRIGHT UNICAMP VENTURES</p>	
