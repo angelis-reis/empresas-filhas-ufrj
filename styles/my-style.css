@@ -1,4 +1,5 @@
 html{
+	box-sizing: border-box;
 }
 
 h4{
@@ -112,35 +113,57 @@ header{
 }
 
 .column{
-
-  float: left;
-  width: 30%;
+  border-style: solid;
+  border-color: black;
+  width: 33%;
   margin-bottom: 16px;
   padding: 0 8px;
+  box-sizing: border-box;
+  float: left;
 }
 
-.column h4, p{
+.column h4{
+	color: #fff;
+	
+	padding: 15px 0px 10px 120px;
+
+
+}
+
+.column p{
 	color: #fff;
 }
 
-.icon{
-	float:left;	
+.icon{	
 	max-width:20%; 
+	float: left;
 }
 
-.text{
-	clear: both;
+#text1{	
 	color: #fff;
+	padding-top: 16px;
 }
 
-#beneficios figure{
-	margin-left: 30px;
-	margin-bottom: 20px;
-	padding-left: auto;
-    float: left;
-    width: 25%;
-    height: 100px;
-    color: #fff;    
+#text2{	
+	color: #fff;
+	
+}
+
+#text3{	
+	color: #fff;
+	
+}
+
+.column img{
+	width: 100%;	  
+}
+
+.icon-text{
+	
+}
+
+#h4-text3{
+	font-size: 21px;
 }
 
 #dominando{
