@@ -268,14 +268,35 @@ a:link
     color: #c0c957;
 }
 
+.empregos19{
+	font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 12px 0 0;
+    color: #c0c957;
+    font-size: 60px;
+
+    line-height: 1em;
+    font-weight: 300;
+    color: #0076b9;
+    display: inline-block!important;
+    height: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 #bilhoes{
 	color: #276479;
 }
 
 #invest{
 	background-color: #fafafa
+
 }
 
+#int{
+	padding-right: 100px;
+}
 .graficos{
 	float: left;
 	width: 50%;
@@ -288,6 +309,16 @@ a:link
 	text-align: center;
 }
 
+.graficos3{
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-top: 110px;
+}
+
+#mais-de{
+	margin-right: 150px;
+}
 footer{
 	clear: both;
 	height: 0px;	
