@@ -174,7 +174,11 @@ a:link
   margin-bottom: 16px;
   padding: 0 8px;
   box-sizing: border-box;
-  float: left;  
+  float: left; 
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
 }
 
 .column h4{
