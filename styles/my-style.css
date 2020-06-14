@@ -6,7 +6,7 @@ html {
 }
 
 h4 {
-	color: #002350;
+	color: rgb(10, 3, 107);
 	font-size: 23px;
 	line-height: 31px;
 	font-style: normal;
@@ -16,7 +16,7 @@ h4 {
 }
 
 h2 {
-	color: #002350;
+	color: rgb(10, 3, 107);
 	font-size: 43px;
 	line-height: 47px;
 	font-style: normal;
@@ -26,7 +26,7 @@ h2 {
 }
 
 p {
-	color: #002350;
+	color: rgb(10, 3, 107);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 26px;
@@ -38,7 +38,7 @@ p {
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	color: #002350;
+	color: rgb(10, 3, 107);
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -152,7 +152,7 @@ a:link {
 }
 
 #botao:hover {
-	background-color: #0469ff
+	background-color: #74df5e
 }
 
 #title {
@@ -180,7 +180,7 @@ a:link {
 }
 
 #beneficios {
-	background-color: #0076b9;
+	background-color: #264455;
 	height: 700px;
 	margin-left: -8px;
 	margin-right: -8px;
@@ -249,7 +249,7 @@ a:link {
 	width: 100%;
 }
 
-.icon-text {}
+
 
 #h4-text3 {
 	font-size: 21px;
@@ -277,7 +277,7 @@ a:link {
 	padding-top: 40px;
 }
 
-#dominando-titulo {
+#dados-empresas {
 	text-align: center;
 }
 
@@ -285,7 +285,7 @@ a:link {
 	font-size: 60px;
 	line-height: 1em;
 	font-weight: 300;
-	color: #0076b9;
+	color: #f73504;
 	display: inline-block !important;
 	height: 1em;
 	margin-top: 0px;
@@ -326,21 +326,32 @@ a:link {
 }
 
 #bilhoes {
-	color: #276479;
+	color: #f73504;
 }
 
 #invest {
-	background-color: #fafafa
+	background-color: #fafafa;
+	padding-bottom: 40px;
 }
 
 #int {
 	padding-right: 100px;
+	
+}
+
+.grafico-unico {
+	
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .graficos {
 	float: left;
 	width: 50%;
 	text-align: center;
+	
 }
 
 .graficos2 {
@@ -368,6 +379,7 @@ h2#mais-de {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 
 footer {
 	clear: both;
