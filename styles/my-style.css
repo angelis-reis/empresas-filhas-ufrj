@@ -3,7 +3,7 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
-	width: 1351px;
+	
 }
 
 h4 {
@@ -65,13 +65,14 @@ header {
 	position: fixed;
 
 	max-width: 1400px;
-	width: 1370px;
+	width: 105%;
 	height: 110px;
 	margin: 0 auto;
 	padding-top: 0px;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: 15px;
+	
 
 	justify-content: space-between;
 	background-color: black;
@@ -114,6 +115,7 @@ a:link {
 	padding: 0px 5px;
 	display: inline-block;
 	font-size: 12px;
+	/*  */
 	color: #ffffff;
 	font-style: normal;
 	font-weight: 900;
@@ -418,7 +420,7 @@ footer {
 
 #social {
 	display: inline;
-	padding-right: 100px;
+	padding-right: 00px;
 }
 
 #social ul {
