@@ -3,6 +3,7 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
+	width: 1351px;
 }
 
 h4 {
@@ -64,7 +65,7 @@ header {
 	position: fixed;
 
 	max-width: 1400px;
-	width: 1380px;
+	width: 1370px;
 	height: 110px;
 	margin: 0 auto;
 	padding-top: 0px;
@@ -453,4 +454,5 @@ footer {
 	text-transform: uppercase;
 	background-color: black;
 	padding-bottom: 30px;
+	margin-bottom: -20px;
 }
