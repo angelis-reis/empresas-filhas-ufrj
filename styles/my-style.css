@@ -420,7 +420,7 @@ footer {
 
 #social {
 	display: inline;
-	padding-right: 00px;
+	padding-right: 100px;
 }
 
 #social ul {
@@ -428,7 +428,7 @@ footer {
 	float: right;
 	list-style-type: none;
 
-	padding-left: 140px;
+	padding-left: 40px;
 	padding-top: 15px;
 }
 
