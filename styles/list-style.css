@@ -62,7 +62,6 @@ header {
 #cabecalho {
 	display: flex;
 	position: fixed;
-
 	max-width: 1400px;
 	width: 105%;
 	height: 110px;
@@ -180,7 +179,7 @@ a:link {
 	display: grid;
 	row-gap: 30px;
 	column-gap: 30px;
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	align-items: center;
 	justify-items: center;
 	justify-content: center;
@@ -196,30 +195,15 @@ a:link {
 	padding: 30px;
 	border-radius: 1rem;
 	border-style: solid;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 	align-items: center;
 	justify-items: center;
 	justify-content: center;
 	align-content: center;
 
 }
-.logo-empresa-branco{
-	display:grid;
-	background-color: #caccc9;
-	padding: 30px;
-	border-radius: 1rem;
-	border-style: solid;
-	width: 200px;
-	height: 200px;
-	align-items: center;
-	justify-items: center;
-	justify-content: center;
-	align-content: center;
 
-	
-
-}
 
 
 .logos {
@@ -267,6 +251,14 @@ a:link {
 	background-color: black;	
 }
 
+#linkedin{
+	text-align: left;
+
+}
+
+#facebook{
+	text-align: right;
+}
 
 
 #social a {		
@@ -297,7 +289,51 @@ a:link {
 }
 
 
-@media only screen and (min-width: 900px) and (max-width: 1250px){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1150px){
+
+	.list{
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(4, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;	
+	}
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
 
 	.list{
 		display: grid;
@@ -311,7 +347,73 @@ a:link {
 		padding-bottom: 40px;	
 	}
 
+	
 }
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+
+	.list{
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;	
+	}
+
+	
+}
+
+@media only screen and (max-width: 400px){
+
+	.list{
+		display: grid;
+		row-gap: 30px;
+		column-gap: 30px;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+		padding-bottom: 40px;	
+	}
+
+	.logo-empresa{
+		display:grid;
+		
+		padding: 30px;
+		border-radius: 1rem;
+		border-style: solid;
+		width: 70px;
+		height: 70px;
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+	
+	}
+	
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 900px){
 
@@ -341,71 +443,6 @@ a:link {
 	
 }
 
-@media only screen and (min-width: 500px) and (max-width: 900px){
-
-	.list{
-		display: grid;
-		row-gap: 30px;
-		column-gap: 30px;
-		grid-template-columns: repeat(2, 1fr);
-		align-items: center;
-		justify-items: center;
-		justify-content: center;
-		align-content: center;
-		padding-bottom: 40px;	
-	}
-
-	
-}
-
-@media only screen and (min-width: 300px) and (max-width: 500px){
-
-	.list{
-		display: grid;
-		row-gap: 30px;
-		column-gap: 30px;
-		grid-template-columns: repeat(2, 1fr);
-		align-items: center;
-		justify-items: center;
-		justify-content: center;
-		align-content: center;
-		padding-bottom: 40px;	
-	}
-
-	.logo-empresa-branco{
-		display:grid;
-		background-color: #caccc9;
-		padding: 30px;
-		border-radius: 1rem;
-		border-style: solid;
-		width: 120px;
-		height: 120px;
-		align-items: center;
-		justify-items: center;
-		justify-content: center;
-		align-content: center;
-	
-		
-	
-	}
-}
-
-@media only screen and (max-width: 300px){
-
-	.list{
-		display: grid;
-		row-gap: 30px;
-		column-gap: 30px;
-		grid-template-columns: repeat(1, 1fr);
-		align-items: center;
-		justify-items: center;
-		justify-content: center;
-		align-content: center;
-		padding-bottom: 40px;	
-	}
-
-
-}
 
 
 
