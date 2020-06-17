@@ -3,7 +3,7 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
-	
+
 }
 
 h4 {
@@ -52,7 +52,8 @@ header {
 	margin-top: -16px;
 	background-image: url("../images/startup.jpg");
 	background-position: center 30%;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
+	background-size: auto;
 	height: 582px;
 	padding-top: 0px;
 	margin-left: -10px;
@@ -70,7 +71,7 @@ header {
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: 15px;
-	
+
 
 	justify-content: space-between;
 	background-color: black;
@@ -144,19 +145,16 @@ a:link {
 	background-color: #39ff14;
 }
 
-#title {
-	padding-top: 290px;
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	color: #ffffff;
-}
+
 
 #title-large {
+	text-align: center;
+	color: #ffffff;
 	font-size: 47px;
 	line-height: 60px;
 	letter-spacing: 1px;
+	padding-bottom: 50px;
+	padding-top: 200px;
 }
 
 
@@ -167,15 +165,13 @@ a:link {
 
 
 
-#title-empresas{
+#title-empresas {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-
-
 }
 
-.list{
+.list {
 	display: grid;
 	row-gap: 30px;
 	column-gap: 30px;
@@ -185,13 +181,10 @@ a:link {
 	justify-content: center;
 	align-content: center;
 	padding-bottom: 40px;
-	
-
 }
 
-.logo-empresa{
-	display:grid;
-	
+.logo-empresa {
+	display: grid;
 	padding: 30px;
 	border-radius: 1rem;
 	border-style: solid;
@@ -201,7 +194,6 @@ a:link {
 	justify-items: center;
 	justify-content: center;
 	align-content: center;
-
 }
 
 
@@ -216,52 +208,52 @@ a:link {
 	height: 300px;
 	align-items: center;
 	justify-items: center;
-	grid-template-areas: 
-	"logo-agencia-footer logo-ufrj social"
-	"cop cop cop";
+	grid-template-areas:
+		"logo-agencia-footer logo-ufrj social"
+		"cop cop cop";
 }
 
 #logo-agencia-footer {
-	grid-area: logo-agencia-footer;	
+	grid-area: logo-agencia-footer;
 	height: 130px;
-	width: 130px;	
+	width: 130px;
 }
 
 #logo-ufrj {
-	grid-area: logo-ufrj;	
+	grid-area: logo-ufrj;
 	height: 280px;
 	width: 280px;
 }
 
 #social {
-	
+
 	grid-area: social;
 	background-color: black;
-	
-	
+
+
 }
 
 #social ul {
 	display: grid;
-	grid-template-columns: 1fr 1fr ;
+	grid-template-columns: 1fr 1fr;
 	column-gap: 10px;
 	justify-self: center;
-	margin: 0px;	
+	margin: 0px;
 	list-style-type: none;
-	background-color: black;	
+	background-color: black;
 }
 
-#linkedin{
+#linkedin {
 	text-align: left;
 
 }
 
-#facebook{
+#facebook {
 	text-align: right;
 }
 
 
-#social a {		
+#social a {
 	width: 50px;
 	height: 50px;
 	background-color: black;
@@ -273,14 +265,14 @@ a:link {
 	grid-column-end: 4;
 	grid-area: cop;
 	justify-self: stretch;
-	align-self:  stretch;
+	align-self: stretch;
 	background-color: black;
-		
+
 }
 
-#cop p{
-	color: white;	
-	text-align: center;	
+#cop p {
+	color: white;
+	text-align: center;
 	font-family: "Montserrat", sans-serif;
 	font-size: 11px;
 	line-height: 62px;
@@ -316,9 +308,9 @@ a:link {
 
 
 
-@media only screen and (min-width: 900px) and (max-width: 1150px){
+@media only screen and (min-width: 900px) and (max-width: 1150px) {
 
-	.list{
+	.list {
 		display: grid;
 		row-gap: 30px;
 		column-gap: 30px;
@@ -327,15 +319,15 @@ a:link {
 		justify-items: center;
 		justify-content: center;
 		align-content: center;
-		padding-bottom: 40px;	
+		padding-bottom: 40px;
 	}
 
 }
 
 
-@media only screen and (min-width: 600px) and (max-width: 900px){
+@media only screen and (min-width: 600px) and (max-width: 900px) {
 
-	.list{
+	.list {
 		display: grid;
 		row-gap: 30px;
 		column-gap: 30px;
@@ -344,15 +336,15 @@ a:link {
 		justify-items: center;
 		justify-content: center;
 		align-content: center;
-		padding-bottom: 40px;	
+		padding-bottom: 40px;
 	}
 
-	
+
 }
 
-@media only screen and (min-width: 400px) and (max-width: 600px){
+@media only screen and (min-width: 400px) and (max-width: 600px) {
 
-	.list{
+	.list {
 		display: grid;
 		row-gap: 30px;
 		column-gap: 30px;
@@ -361,30 +353,30 @@ a:link {
 		justify-items: center;
 		justify-content: center;
 		align-content: center;
-		padding-bottom: 40px;	
+		padding-bottom: 40px;
 	}
 
 	#logo-agencia-footer {
-		grid-area: logo-agencia-footer;	
+		grid-area: logo-agencia-footer;
 		height: 75px;
-		width: 75px;	
+		width: 75px;
 	}
-	
+
 	#logo-ufrj {
-		grid-area: logo-ufrj;	
+		grid-area: logo-ufrj;
 		height: 180px;
 		width: 180px;
 	}
 
-	#social a {		
+	#social a {
 		width: 40px;
 		height: 40px;
 		background-color: black;
 	}
 
-	#cop p{
-		color: white;	
-		text-align: center;	
+	#cop p {
+		color: white;
+		text-align: center;
 		font-family: "Montserrat", sans-serif;
 		font-size: 9px;
 		line-height: 62px;
@@ -392,12 +384,12 @@ a:link {
 		text-transform: uppercase;
 	}
 
-	
+
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 400px) {
 
-	.list{
+	.list {
 		display: grid;
 		row-gap: 30px;
 		column-gap: 30px;
@@ -406,11 +398,11 @@ a:link {
 		justify-items: center;
 		justify-content: center;
 		align-content: center;
-		padding-bottom: 40px;	
+		padding-bottom: 40px;
 	}
 
-	.logo-empresa{
-		display:grid;		
+	.logo-empresa {
+		display: grid;
 		padding: 30px;
 		border-radius: 1rem;
 		border-style: solid;
@@ -420,63 +412,65 @@ a:link {
 		justify-items: center;
 		justify-content: center;
 		align-content: center;
-	
+
 	}
-	
+
 	.logos {
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr;
-		
-		
+
+
 		background-color: black;
 		margin-right: -20px;
 		margin-left: -20px;
-		
-	
-		grid-template-areas: 
-		"logo-agencia-footer" 
-		"logo-ufrj"
-		"social"
-		"cop";
-		
+
+
+		grid-template-areas:
+			"logo-agencia-footer"
+			"logo-ufrj"
+			"social"
+			"cop"
+		;
+
 	}
 
 
 	#logo-agencia-footer {
-		grid-area: logo-agencia-footer;	
+		grid-area: logo-agencia-footer;
 		height: 75px;
-		width: 75px;	
+		width: 75px;
 		padding-top: 15px;
 	}
-	
+
 	#logo-ufrj {
-		grid-area: logo-ufrj;	
+		grid-area: logo-ufrj;
 		height: 180px;
 		width: 180px;
 	}
 
-	#social a {		
+	#social a {
 		width: 40px;
 		height: 40px;
 		background-color: black;
 	}
+
 	#social {
-		
+
 		grid-area: social;
 		background-color: black;
 		align-self: stretch;
-		justify-self: stretch;		
+		justify-self: stretch;
 	}
 
-	#facebook{
+	#facebook {
 		text-align: right;
 		padding-right: 30px;
 	}
 
-	#cop p{
-		color: white;	
-		text-align: center;	
+	#cop p {
+		color: white;
+		text-align: center;
 		font-family: "Montserrat", sans-serif;
 		font-size: 11px;
 		line-height: 62px;
@@ -484,6 +478,16 @@ a:link {
 		text-transform: uppercase;
 	}
 
+	#title-large {
+		text-align: center;
+		color: #ffffff;
+		font-size: 38px;
+		line-height: 60px;
+		letter-spacing: 1px;
+		padding-bottom: 50px;
+		padding-top: 200px;
+	}
+
 
 }
 
@@ -501,11 +505,11 @@ a:link {
 
 
 
-@media only screen and (min-width: 400px) and (max-width: 900px){
+@media only screen and (min-width: 400px) and (max-width: 900px) {
 
 	.logos {
 		display: grid;
-		grid-template-columns: 1fr 1fr ;
+		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
 		background-color: black;
 		margin-right: -20px;
@@ -513,120 +517,18 @@ a:link {
 		height: 300px;
 		align-items: center;
 		justify-items: center;
-		grid-template-areas: 
-		"logo-agencia-footer logo-ufrj "
-		"social cop";
+		grid-template-areas:
+			"logo-agencia-footer logo-ufrj "
+			"social cop";
 	}
-	
+
 	#social {
-		
+
 		grid-area: social;
 		background-color: black;
 		align-self: stretch;
-		justify-self: stretch;		
+		justify-self: stretch;
 	}
 
-	
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
