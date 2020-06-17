@@ -10,6 +10,7 @@
 	<meta charset="UTF-8" />
 	<html lang="pt-br" />
 	<title>Lista de Empresas-Filhas UFRJ </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 	<link rel="stylesheet" type="text/css" href="styles/list-style.css">
@@ -43,7 +44,7 @@
 
 	<header>
 
-
+     <!--
 		<div id="cabecalho">
 
 			<a target="_blank" href="https://inovacao.ufrj.br/"><img id="logo" src="images/logo-agencia.gif"
@@ -64,6 +65,7 @@
 				</ul>
 			</nav>
 		</div>
+	-->
 		<!--let the header as 				a flexbox-->
 		<div id="title">
 			<span>
@@ -123,7 +125,7 @@
 		<div class="logo-empresa">
 			<a target="_blank" href="https://hashtagtreinamentos.com"><img src="images/logo-empresas/Hashtag.png"></a>
 		</div>
-		<div class="logo-empresa-branco">
+		<div class="logo-empresa">
 			<a target="_blank" href="https://holosbrasil.com"><img src="images/logo-empresas/Holos.png"></a>
 		</div>
 		<div class="logo-empresa">
@@ -255,24 +257,27 @@
 
 	<footer>
 
-		<section id="logos">
+		<section class="logos">
 
-			<a class="column-footer" target="_blank" href="https://inovacao.ufrj.br/"><img id="logo-agencia-footer"
+			<a target="_blank" href="https://inovacao.ufrj.br/"><img id="logo-agencia-footer"
 					src="images/logo-agencia-simple.gif" alt="Logo Agência UFRJ de Inovação"></a>
 
-			<a class="column-footer" target="_blank" href="https://ufrj.br"><img id="logo-ufrj"
+			<a target="_blank" href="https://ufrj.br"><img id="logo-ufrj"
 					src="images/logo-ufrj.svg" alt="Logo UFRJ"></a>
 
-			<nav class="column-footer" id="social">
+			<nav id="social">
 				<ul>
-					<li><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img src="images/face-icon.png"
+					<li id="facebook"><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img src="images/face-icon.png"
 								width="50" height="50"></a></li>
-					<li><a target="_blank"
+					<li id="linkedin"><a target="_blank"
 							href="https://www.linkedin.com/company/ag%C3%AAncia-ufrj-de-inova%C3%A7%C3%A3o/"><img
 								src="images/linkedin-icon.png" width="50" height="50"></a></li>
 				</ul>
 			</nav>
-			<p id="cop">© COPYRIGHT <a target="_blank" href="https://github.com/angelis-reis">ANGELIS-REIS </a> 2020</p>
+			<div id="cop" >
+				<p>© COPYRIGHT <a target="_blank" href="https://github.com/angelis-reis">ANGELIS-REIS </a> 2020</p>
+
+			</div>
 
 
 		</section>
