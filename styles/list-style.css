@@ -89,7 +89,7 @@ header {
 	width: 70px;
 	height: 70px;
 	padding-top: 25px;
-	padding-right: 40px;
+	padding-left: 50px;
 }
 
 
@@ -640,32 +640,36 @@ a:link {
 
 
 	#links-drop-down {
-		display: inherit;		
-		z-index: 1;		
+		display: inherit;			
 		position: absolute;
-		padding-left: 20px;		
+		
+		display: block;
 	}
 	
-	#links-drop-down ul {
-		float:right;
+	#links-drop-down li{
+		list-style-type: none;
 		
-		height: 370px;	
 		
+
+	}
+	
+	#links-drop-down li ul {
+		display: none;
+
+		padding-left: 20px;				
+		height: 340px;		
 		padding-top: 0px;				
 		list-style-type: none;		
 		background-color: black;	
-		width: 170px;
+		width: 200px;
 		border-radius: 20px;
-		
-		
+
+
 	}
+
+	#links-drop-down li ul li a{
+		padding-right: 30px;
 	
-	#links-drop-down li {	
-		
-		height: 60px;
-		padding-top: ;
-		
-		
 	}
 	
 
@@ -687,6 +691,12 @@ a:link {
 		color: #39ff14;
 	}
 
+
+	#links-drop-down li:hover ul {
+		display: inherit;
+	}
+
+	
 }	
 
 	
