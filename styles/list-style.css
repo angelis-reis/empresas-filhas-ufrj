@@ -93,10 +93,8 @@ header {
 }
 
 
-#logo {
-	
+#logo {	
 	align-items: center;
-
 	margin-top: 10px;
 	padding-left: 60px;
 	transform: scale(0.9);
@@ -107,15 +105,10 @@ header {
 
 #logo-drop-down {
 	display: none;
-	
-	align-items: center;
-
-	margin-top: 10px;
-	padding-left: 60px;
-	transform: scale(0.9);
-	margin-left: -11px;
-	height: 100px;
-	width: auto;
+	width: 70px;
+	height: 70px;
+	padding-top: 25px;
+	padding-right: 40px;
 }
 
 #links {
@@ -123,11 +116,7 @@ header {
 	padding-right: 40px;
 }
 
-#links-drop-down {
-	display: none;
-	align-items: center;
-	padding-right: 40px;
-}
+
 
 #links ul {
 	padding: 0px;
@@ -150,7 +139,6 @@ a:link {
 	padding: 0px 5px;
 	display: inline-block;
 	font-size: 12px;
-	/*  */
 	color: #ffffff;
 	font-style: normal;
 	font-weight: 900;
@@ -163,6 +151,13 @@ a:link {
 	font-size: 13px;
 	color: #39ff14;
 }
+
+
+
+#links-drop-down {
+	display: none;
+}
+
 
 #botao {
 	border-radius: 15px;
@@ -619,36 +614,77 @@ a:link {
 		padding-right: 40px;
 	}
 	
-	#links-drop-down {
-		display: none;
-		align-items: center;
-		padding-right: 40px;
-	}
+	
 
 	#logo-drop-down {
 		display: inherit;
-		
-		
-	
-		margin-top: 10px;
-		
-		transform: scale(0.7);
-		
-		height: 100px;
-		margin-right: auto;
-		
+		width: 70px;
+		height: 70px;
+		padding-top: 25px;
+		padding-right: 40px;
+		margin-right: auto;		
 	}
 
 	#hamburguer{
-		display: inherit;
-		
+		display: inherit;		
 		width: 70px;
-		height: 70px;
-		
-		margin-left: auto;
+		height: 70px;				
+		padding-top: 10px;
+	}
 
+
+	#cabecalho img:hover{
+		display: none;
+
+	}
+
+
+	#links-drop-down {
+		display: inherit;		
+		z-index: 1;		
+		position: absolute;
+		padding-left: 20px;		
+	}
+	
+	#links-drop-down ul {
+		float:right;
 		
-		padding-top: 25px;
+		height: 370px;	
+		
+		padding-top: 0px;				
+		list-style-type: none;		
+		background-color: black;	
+		width: 170px;
+		border-radius: 20px;
+		
+		
+	}
+	
+	#links-drop-down li {	
+		
+		height: 60px;
+		padding-top: ;
+		
+		
+	}
+	
+
+	
+	#links-drop-down a {
+		padding: 0px 5px;
+		display: inline-block;
+		font-size: 12px;
+		color: #ffffff;
+		font-style: normal;
+		font-weight: 900;
+		letter-spacing: 0px;
+		text-transform: uppercase;
+		line-height: 80px;
+	}
+	
+	#links-drop-down a:hover {
+		font-size: 13px;
+		color: #39ff14;
 	}
 
 }	
