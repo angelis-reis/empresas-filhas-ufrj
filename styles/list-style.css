@@ -61,13 +61,20 @@ header {
 }
 
 #cabecalho {
+	
+	
 	display: flex;
 	position: fixed;
-	max-width: 1400px;
-	width: 105%;
+	top: 0;
+	right: 0;
+	left: 0;
+	
+	max-width: auto;
+	
 	height: 110px;
 	margin: 0 auto;
 	padding-top: 0px;
+	margin-top: -15px;
 	margin-left: -10px;
 	margin-right: -10px;
 	margin-bottom: 15px;
@@ -77,7 +84,30 @@ header {
 	background-color: black;
 }
 
+#hamburguer{
+	display: none;
+	width: 70px;
+	height: 70px;
+	padding-top: 25px;
+	padding-right: 40px;
+}
+
+
 #logo {
+	
+	align-items: center;
+
+	margin-top: 10px;
+	padding-left: 60px;
+	transform: scale(0.9);
+	margin-left: -11px;
+	height: 100px;
+	width: auto;
+}
+
+#logo-drop-down {
+	display: none;
+	
 	align-items: center;
 
 	margin-top: 10px;
@@ -89,6 +119,12 @@ header {
 }
 
 #links {
+	align-items: center;
+	padding-right: 40px;
+}
+
+#links-drop-down {
+	display: none;
 	align-items: center;
 	padding-right: 40px;
 }
@@ -532,3 +568,89 @@ a:link {
 
 
 }
+
+
+
+@media only screen and (max-width: 850px) {
+
+	#cabecalho {
+	
+	
+		display: flex;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		
+		max-width: auto;
+		
+		height: 110px;
+		margin: 0 auto;
+		padding-top: 0px;
+		margin-top: -15px;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-bottom: 15px;
+		justify-content: space-between;
+	
+	
+		
+		background-color: black;
+	}
+
+	#logo {
+	
+		display: none;
+		align-items: center;
+	
+		margin-top: 10px;
+		padding-left: 60px;
+		transform: scale(0.9);
+		margin-left: -11px;
+		height: 100px;
+		width: auto;
+	}
+	
+	
+	
+	#links {
+		display: none;
+		align-items: center;
+		padding-right: 40px;
+	}
+	
+	#links-drop-down {
+		display: none;
+		align-items: center;
+		padding-right: 40px;
+	}
+
+	#logo-drop-down {
+		display: inherit;
+		
+		
+	
+		margin-top: 10px;
+		
+		transform: scale(0.7);
+		
+		height: 100px;
+		margin-right: auto;
+		
+	}
+
+	#hamburguer{
+		display: inherit;
+		
+		width: 70px;
+		height: 70px;
+		
+		margin-left: auto;
+
+		
+		padding-top: 25px;
+	}
+
+}	
+
+	
