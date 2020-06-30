@@ -14,7 +14,7 @@
 
 
 	<link rel="stylesheet" type="text/css" href="styles/list-style.css">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> -->
 
 
 	<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
@@ -65,9 +65,11 @@
 				</ul>
 			</nav>
 
-			<ul id="links-drop-down">
+			 <ul id="links-drop-down"> <!--links to show up in mobile -->
 				
-					<li> <img id="hamburguer" src="images/hamburguer.png" alt="Logo Agência UFRJ de Inovação"> 
+					<li> 
+						
+						<img id="hamburguer" src="images/hamburguer.png" alt="menu"> 
 
 						<ul>
 
@@ -85,7 +87,7 @@
 			</ul>
 		</div>
 
-		<!--let the header as 				a flexbox-->
+		<!-- Did the header in flexbox -->
 
 		<div>
 
@@ -308,6 +310,50 @@
 
 		</section>
 	</footer>
+
+
+
+	<script>  
+
+		
+		// script to show and hide the drop down menu when the user clicks the hamburguer icon
+		
+		document.getElementById("links-drop-down").addEventListener("click", 
+		
+		
+		function(){
+
+			var x= document.querySelector("#links-drop-down li ul")
+
+			if (x.style.display==="none"){
+				x.style.display = "inherit";
+			}
+			else{
+				x.style.display = "none";
+
+			}
+
+			
+		}	);
+
+
+
+
+
+
+		document.getElementById("title-large").addEventListener("click", 
+		
+		
+		function(){
+
+			document.querySelector("#links-drop-down li ul").style.display = "none";
+
+			
+		}	);
+
+
+
+	</script>
 
 
 
