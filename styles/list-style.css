@@ -59,120 +59,108 @@ header {
 	margin-right: -10px;
 }
 
-#cabecalho {	
-	display: flex;
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;	
-	max-width: auto;	
-	height: 110px;
-	margin: 0 auto;
-	padding-top: 0px;
-	margin-top: -15px;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-bottom: 15px;
-	justify-content: space-between;
-	background-color: black;
-}
+	#cabecalho {	
+		display: flex;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;	
+		max-width: auto;	
+		height: 110px;
+		margin: 0 auto;
+		padding-top: 0px;
+		margin-top: -15px;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-bottom: 15px;
+		justify-content: space-between;
+		background-color: black;
+	}
 
-#hamburguer{
-	display: none;
-	width: 70px;
-	height: 70px;
-	padding-top: 25px;
-	padding-left: 50px;
-}
+		
 
 
-#logo {	
-	align-items: center;
-	margin-top: 10px;
-	padding-left: 60px;
-	transform: scale(0.8);
-	margin-left: -11px;
-	height: 100px;
-	width: auto;
-}
+		#logo {	
+			align-items: center;
+			margin-top: 10px;
+			padding-left: 60px;
+			transform: scale(0.8);
+			margin-left: -11px;
+			height: 100px;
+			width: auto;
+		}
 
-#logo-drop-down {
-	display: none;
-	width: 70px;
-	height: 70px;
-	padding-top: 25px;
-	padding-right: 40px;
-}
+		#logo-drop-down {
+			display: none;
+			width: 70px;
+			height: 70px;
+			padding-top: 25px;
+			padding-right: 40px;
+		}
 
-#links {
-	align-items: center;
-	padding-right: 40px;
-}
+		#links {
+			align-items: center;
+			padding-right: 40px;
+		}
 
-#links ul {
-	padding: 0px;
-	margin: 0px;
-	float: right;
-	list-style-type: none;
-	margin-top: 0px;
-	margin-right: 15px;
-}
+		#links ul {
+			padding: 0px;
+			margin: 0px;
+			float: right;
+			list-style-type: none;
+			margin-top: 0px;
+			margin-right: 15px;
+		}
 
-#links li {
-	display: inline;
-}
+		#links li {
+			display: inline;
+		}
 
-a:link {
-	text-decoration: none;
-}
+		a:link {
+			text-decoration: none;
+		}
 
-#links a {
-	padding: 0px 5px;
-	display: inline-block;
-	font-size: 12px;
-	color: #ffffff;
-	font-style: normal;
-	font-weight: 900;
-	letter-spacing: 0px;
-	text-transform: uppercase;
-	line-height: 140px;
-}
+		#links a {
+			padding: 0px 5px;
+			display: inline-block;
+			font-size: 12px;
+			color: #ffffff;
+			font-style: normal;
+			font-weight: 900;
+			letter-spacing: 0px;
+			text-transform: uppercase;
+			line-height: 140px;
+		}
 
-#links a:hover {
-	font-size: 13px;
-	color: #39ff14;
-}
+		#links a:hover {
+			font-size: 13px;
+			color: #39ff14;
+		}
 
-#links-drop-down {
-	display: none;
-}
+		#links-drop-down {
+			display: none;
+		}
 
-#botao {
-	border-radius: 15px;
-	border-style: solid;
-	border-color: #78f0d3;
-	background: none;
-	font-size: 20px;
-	font-weight: bolder;
-	margin: 10px;
-	padding: 20px 43px;
-	font-family: "Open Sans", sans-serif;
-	cursor: pointer;
-}
+			#hamburguer{
+				display: none;
+				width: 70px;
+				height: 70px;
+				padding-top: 25px;
+				padding-left: 50px;
+			}
 
-#botao:hover {
-	background-color: #39ff14;
-}
 
-#title-large {
-	text-align: center;
-	color: #ffffff;
-	font-size: 47px;
-	line-height: 60px;
-	letter-spacing: 1px;
-	padding-bottom: 50px;
-	padding-top: 200px;
-}
+
+	#title-large {
+		text-align: center;
+		color: #ffffff;
+		font-size: 47px;
+		line-height: 60px;
+		letter-spacing: 1px;
+		padding-bottom: 50px;
+		padding-top: 200px;
+	}
+
 
 #title-empresas {
 	text-align: center;
@@ -192,18 +180,19 @@ a:link {
 	padding-bottom: 40px;
 }
 
-.logo-empresa {
-	display: grid;
-	padding: 30px;
-	border-radius: 1rem;
-	border-style: solid;
-	width: 100px;
-	height: 100px;
-	align-items: center;
-	justify-items: center;
-	justify-content: center;
-	align-content: center;
-}
+	.logo-empresa {
+		display: grid;
+		padding: 30px;
+		border-radius: 1rem;
+		border-style: solid;
+		width: 100px;
+		height: 100px;
+		align-items: center;
+		justify-items: center;
+		justify-content: center;
+		align-content: center;
+	}
+
 
 .logos {
 	display: grid;
@@ -220,66 +209,66 @@ a:link {
 		"cop cop cop";
 }
 
-#logo-agencia-footer {
-	grid-area: logo-agencia-footer;
-	height: 130px;
-	width: 130px;
-}
+	#logo-agencia-footer {
+		grid-area: logo-agencia-footer;
+		height: 130px;
+		width: 130px;
+	}
 
-#logo-ufrj {
-	grid-area: logo-ufrj;
-	height: 280px;
-	width: 280px;
-}
+	#logo-ufrj {
+		grid-area: logo-ufrj;
+		height: 280px;
+		width: 280px;
+	}
 
-#social {
-	grid-area: social;
-	background-color: black;
-}
+	#social {
+		grid-area: social;
+		background-color: black;
+	}
 
-#social ul {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	column-gap: 10px;
-	justify-self: center;
-	margin: 0px;
-	list-style-type: none;
-	background-color: black;
-}
+		#social ul {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			column-gap: 10px;
+			justify-self: center;
+			margin: 0px;
+			list-style-type: none;
+			background-color: black;
+		}
 
-#linkedin {
-	text-align: left;
-}
+		#linkedin {
+			text-align: left;
+		}
 
-#facebook {
-	text-align: right;
-}
+		#facebook {
+			text-align: right;
+		}
 
-#social a {
-	width: 50px;
-	height: 50px;
-	background-color: black;
-}
+		#social a {
+			width: 50px;
+			height: 50px;
+			background-color: black;
+		}
 
-#cop {
-	background-color: black;
-	grid-column-start: 1;
-	grid-column-end: 4;
-	grid-area: cop;
-	justify-self: stretch;
-	align-self: stretch;
-	background-color: black;
-}
+	#cop {
+		background-color: black;
+		grid-column-start: 1;
+		grid-column-end: 4;
+		grid-area: cop;
+		justify-self: stretch;
+		align-self: stretch;
+		background-color: black;
+	}
 
-#cop p {
-	color: white;
-	text-align: center;
-	font-family: "Montserrat", sans-serif;
-	font-size: 11px;
-	line-height: 62px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
+		#cop p {
+			color: white;
+			text-align: center;
+			font-family: "Montserrat", sans-serif;
+			font-size: 11px;
+			line-height: 62px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
 
 
 
@@ -601,26 +590,6 @@ a:link {
 		line-height: 80px;
 	}
 	
-	/* #links-drop-down a:hover {
-		font-size: 13px;
-		color: #39ff14;
-	} */
-
-	/* #links-drop-down li ul {
-		display: inherit;
-	} */
-/* 
-	#links-drop-down li:focus ul {
-		display: inherit;
-	} */
-	
-	/* #links-drop-down li:focus ul {
-		display: inherit;
-	}
-
-	#links-drop-down li:active ul {
-		display: inherit;
-	} */
 
 
 	
