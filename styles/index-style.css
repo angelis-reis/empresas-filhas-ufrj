@@ -37,6 +37,10 @@ p {
 	margin-bottom: 15px;
 }
 
+img {
+	max-width: 100%;
+}
+
 body {
 	font-family: "Montserrat", sans-serif;
 	color: rgb(10, 3, 107);
@@ -44,417 +48,356 @@ body {
 	font-weight: 400;
 }
 
-img {
-	max-width: 100%;
-}
+	header {
+		margin-top: -16px;
+		background-image: url("../images/ponte_estaiada2.jpg");
+		background-size: cover;
+		background-position: center 30%;
+		background-repeat: no-repeat;
+		
+		height: 582px;
+		padding-top: 0px;
+		margin-left: -10px;
+		margin-right: -10px;
+	}
 
-header {
-	margin-top: -16px;
-	background-image: url("../images/campus3.jpg");
-	background-position: center 30%;
+	#title {
+		padding-top: 290px;
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		color: #ffffff;
+	}
 
-	background-repeat: no-repeat;
-	height: 582px;
-	padding-top: 0px;
-	margin-left: -10px;
-	margin-right: -10px;
-}
+	#title-large {
+		font-size: 47px;
+		line-height: 60px;
+		letter-spacing: 1px;
+	}
 
-#cabecalho {
-	display: flex;
-	position: fixed;
+	#subtitle {
+		padding-top: 40px;
+		padding-bottom: 100px;
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
 
-	max-width: 1400px;
-	width: 105%;
-	height: 110px;
-	margin: 0 auto;
-	padding-top: 0px;
-	margin-left: -10px;
-	margin-right: -10px;
-	margin-bottom: 15px;
+
+		#botao {
+			border-radius: 15px;
+			border-style: solid;
+			border-color: #78f0d3;
+			background: none;
+			font-size: 20px;
+			font-weight: bolder;
+			margin: 10px;
+			padding: 20px 43px;
+			font-family: "Open Sans", sans-serif;
+			cursor: pointer;
+		}
+
+		#botao:hover {
+			background-color: #39ff14;
+		}
+
+
+	#torta-top {
+		padding-bottom: -10px;
+		margin-left: -8px;
+	}
+
+
+	#beneficios {
+		background-color: #264455;
+		height: 700px;
+		margin-left: -8px;
+		margin-right: -8px;
+	}
+
+		#beneficios-titulo {
+			text-align: center;
+			color: #fff;
+			margin-top: -4px;
+		}
+
+
+
+		.separador {
+			height: 4px;
+			margin-top: 5px;
+			margin-bottom: 15px;
+			background: linear-gradient(to right, #81d742, #1e73be);
+		}
+
 	
 
-	justify-content: space-between;
-	background-color: black;
-}
+		.column {
+			width: 33%;
+			margin-bottom: 16px;
+			padding: 0 8px;
+			box-sizing: border-box;
+			float: left;
+			margin-block-end: 0px;
+			margin-block-start: 0px;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+		}
 
-#logo {
-	align-items: center;
+			.fotos {
+				width: 400px;
+				height: 250px;
+			}
 
-	margin-top: 10px;
-	padding-left: 60px;
-	transform: scale(0.9);
-	margin-left: -11px;
-	height: 100px;
-	width: auto;
-}
+				.icon {
+					max-width: 20%;
+					float: left;
+				}
 
-#links {
-	align-items: center;
-	padding-right: 40px;
-}
+				.column h4 {
+					color: #fff;
 
-#links ul {
-	padding: 0px;
-	margin: 0px;
-	float: right;
-	list-style-type: none;
-	margin-top: 0px;
-	margin-right: 15px;
-}
+					padding: 15px 0px 10px 120px;
+				}
 
-#links li {
-	display: inline;
-}
+			
 
-a:link {
-	text-decoration: none;
-}
+			
 
-#links a {
-	padding: 0px 5px;
-	display: inline-block;
-	font-size: 12px;
-	/*  */
-	color: #ffffff;
-	font-style: normal;
-	font-weight: 900;
-	letter-spacing: 0px;
-	text-transform: uppercase;
-	line-height: 140px;
-}
+			#text1 {
+				color: #fff;
+				padding-top: 16px;
+			}
 
-#links a:hover {
-	font-size: 13px;
-	color: #39ff14;
-}
+				.column p {
+					color: #fff;
+				}
 
-#botao {
-	border-radius: 15px;
-	border-style: solid;
-	border-color: #78f0d3;
-	background: none;
-	font-size: 20px;
-	font-weight: bolder;
-	margin: 10px;
-	padding: 20px 43px;
-	font-family: "Open Sans", sans-serif;
-	cursor: pointer;
-}
+			#text2 {
+				color: #fff;
+			}
 
-#botao:hover {
-	background-color: #39ff14;
-}
+			#text3 {
+				color: #fff;
+			}
 
-#title {
-	padding-top: 290px;
-	width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	color: #ffffff;
-}
+		.column img {
+			width: 100%;
+		}
 
-#title-large {
-	font-size: 47px;
-	line-height: 60px;
-	letter-spacing: 1px;
-}
+		#h4-text3 {
+			font-size: 21px;
+		}
 
-#subtitle {
-	padding-top: 40px;
-	padding-bottom: 100px;
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
+	.torta {
+		position: absolute;
+		z-index: 20;
+		display: block;
+		bottom: -85px;
+		background-color: #fafafa;
+		padding-top: 100px;
+		padding-bottom: 5px;
+		text-align: left;
+		margin-right: -8px;
+	}
 
-#beneficios {
-	background-color: #264455;
-	height: 700px;
-	margin-left: -8px;
-	margin-right: -8px;
-}
+	#torta-bottom {
+		margin-right: -8px;
+	}
 
-#beneficios-titulo {
-	text-align: center;
-	color: #fff;
-	margin-top: -4px;
-}
+	.clear {
+		clear: both;
+		padding-top: 40px;
+	}
 
-#torta-top {
-	padding-bottom: -10px;
-	margin-left: -8px;
-}
+	#dados-empresas {
+		text-align: center;
+	}
 
-.separador {
-	height: 4px;
-	margin-top: 5px;
-	margin-bottom: 15px;
-	background: linear-gradient(to right, #81d742, #1e73be);
-}
+	.numero {
+		font-size: 60px;
+		line-height: 1em;
+		font-weight: 300;
+		color: #f73504;
+		display: inline-block !important;
+		height: 1em;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 
-.fotos {
-	width: 400px;
-	height: 250px;
-}
+	.dezenove {
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 12px 0 0;
+		color: #c0c957;
+	}
 
-.column {
-	width: 33%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-	box-sizing: border-box;
-	float: left;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-}
+	.empregos {
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 12px 0 0;
+		color: #c0c957;
+	}
 
-.column h4 {
-	color: #fff;
+	.empregos19 {
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		margin: 12px 0 0;
+		color: #c0c957;
+		font-size: 60px;
 
-	padding: 15px 0px 10px 120px;
-}
+		line-height: 1em;
+		font-weight: 300;
+		color: #0076b9;
+		display: inline-block !important;
+		height: 1em;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 
-.column p {
-	color: #fff;
-}
+	#bilhoes {
+		color: #f73504;
+	}
 
-.icon {
-	max-width: 20%;
-	float: left;
-}
+	#invest {
+		background-color: #fafafa;
+		padding-bottom: 40px;
+	}
 
-#text1 {
-	color: #fff;
-	padding-top: 16px;
-}
+	#int {
+		padding-right: 100px;
+	}
 
-#text2 {
-	color: #fff;
-}
+	.grafico-unico {
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-#text3 {
-	color: #fff;
-}
+	.graficos {
+		float: left;
+		width: 50%;
+		text-align: center;
+	}
 
-.column img {
-	width: 100%;
-}
+	.graficos2 {
+		float: left;
 
-#h4-text3 {
-	font-size: 21px;
-}
+		text-align: center;
+	}
 
-.torta {
-	position: absolute;
-	z-index: 20;
-	display: block;
-	bottom: -85px;
-	background-color: #fafafa;
-	padding-top: 100px;
-	padding-bottom: 5px;
-	text-align: left;
-	margin-right: -8px;
-}
+	.graficos3 {
+		float: center;
+		width: 50%;
+		text-align: center;
+		margin-top: 110px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-#torta-bottom {
-	margin-right: -8px;
-}
+	#mais-de {
+		max-width: 70%;
+	}
 
-.clear {
-	clear: both;
-	padding-top: 40px;
-}
+	h2#mais-de {
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-#dados-empresas {
-	text-align: center;
-}
+	/* footer {
+		clear: both;
+		height: 0px;
+		width: 100%;
+		margin-bottom: -20px;
+	}
 
-.numero {
-	font-size: 60px;
-	line-height: 1em;
-	font-weight: 300;
-	color: #f73504;
-	display: inline-block !important;
-	height: 1em;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
+	.column-footer {
+		width: 33%;
 
-.dezenove {
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 12px 0 0;
-	color: #c0c957;
-}
+		margin-bottom: 16px;
 
-.empregos {
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 12px 0 0;
-	color: #c0c957;
-}
+		box-sizing: border-box;
+		float: left;
+		margin-block-end: 0px;
+		margin-block-start: 0px;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+	}
 
-.empregos19 {
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	margin: 12px 0 0;
-	color: #c0c957;
-	font-size: 60px;
+	.logos-footer {
+		width: 30%;
+		float: left;
+	}
 
-	line-height: 1em;
-	font-weight: 300;
-	color: #0076b9;
-	display: inline-block !important;
-	height: 1em;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
+	#logos {
+		background-color: black;
+		margin-right: -20px;
+		margin-left: -20px;
+		height: 300px;
+	}
 
-#bilhoes {
-	color: #f73504;
-}
+	#logo-agencia-footer {
+		float: left;
 
-#invest {
-	background-color: #fafafa;
-	padding-bottom: 40px;
-}
+		padding-left: 140px;
+		padding-top: 70px;
+		height: 130px;
+		width: 130px;
+		background-color: black;
+	}
 
-#int {
-	padding-right: 100px;
-}
+	#logo-ufrj {
+		padding-top: 0px;
+		padding-left: 60px;
+		height: 280px;
+		width: 280px;
+	}
 
-.grafico-unico {
-	width: 80%;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
+	#social {
+		display: inline;
+		padding-right: 100px;
+	}
 
-.graficos {
-	float: left;
-	width: 50%;
-	text-align: center;
-}
+	#social ul {
+		margin: 0px;
+		float: right;
+		list-style-type: none;
 
-.graficos2 {
-	float: left;
+		padding-left: 40px;
+		padding-top: 15px;
+	}
 
-	text-align: center;
-}
+	#social li {
+		display: inline;
+	}
 
-.graficos3 {
-	float: center;
-	width: 50%;
-	text-align: center;
-	margin-top: 110px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	#social a {
+		padding: 100px 10px;
+		display: inline-block;
+		font-size: 12px;
+		width: 50px;
+		height: 50px;
+	}
 
-#mais-de {
-	max-width: 70%;
-}
-
-h2#mais-de {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-footer {
-	clear: both;
-	height: 0px;
-	width: 100%;
-	margin-bottom: -20px;
-}
-
-.column-footer {
-	width: 33%;
-
-	margin-bottom: 16px;
-
-	box-sizing: border-box;
-	float: left;
-	margin-block-end: 0px;
-	margin-block-start: 0px;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
-}
-
-.logos-footer {
-	width: 30%;
-	float: left;
-}
-
-#logos {
-	background-color: black;
-	margin-right: -20px;
-	margin-left: -20px;
-	height: 300px;
-}
-
-#logo-agencia-footer {
-	float: left;
-
-	padding-left: 140px;
-	padding-top: 70px;
-	height: 130px;
-	width: 130px;
-	background-color: black;
-}
-
-#logo-ufrj {
-	padding-top: 0px;
-	padding-left: 60px;
-	height: 280px;
-	width: 280px;
-}
-
-#social {
-	display: inline;
-	padding-right: 100px;
-}
-
-#social ul {
-	margin: 0px;
-	float: right;
-	list-style-type: none;
-
-	padding-left: 40px;
-	padding-top: 15px;
-}
-
-#social li {
-	display: inline;
-}
-
-#social a {
-	padding: 100px 10px;
-	display: inline-block;
-	font-size: 12px;
-	width: 50px;
-	height: 50px;
-}
-
-#cop {
-	color: white;
-	clear: both;
-	text-align: center;
-	padding-top: 15px;
-	font-family: "Montserrat", sans-serif;
-	font-size: 11px;
-	line-height: 62px;
-	font-weight: 700;
-	text-transform: uppercase;
-	background-color: black;
-	padding-bottom: 30px;
-	margin-bottom: -20px;
-}
+	#cop {
+		color: white;
+		clear: both;
+		text-align: center;
+		padding-top: 15px;
+		font-family: "Montserrat", sans-serif;
+		font-size: 11px;
+		line-height: 62px;
+		font-weight: 700;
+		text-transform: uppercase;
+		background-color: black;
+		padding-bottom: 30px;
+		margin-bottom: -20px;
+	} */

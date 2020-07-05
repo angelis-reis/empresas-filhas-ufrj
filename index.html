@@ -8,11 +8,14 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<html lang="pt-br" />
+	<html lang="pt-br">
 	<title>Empresas-Filhas UFRJ </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 	<link rel="stylesheet" type="text/css" href="styles/index-style.css">
+	<link rel="stylesheet" type="text/css" href="styles/footer.css">
+	<link rel="stylesheet" type="text/css" href="styles/header.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
 
@@ -44,18 +47,28 @@
 	<header>
 
 
+
+
+
 		<div id="cabecalho">
 
-			<a target="_blank" href="https://inovacao.ufrj.br/"><img id="logo" src="images/logo-agencia.gif"
+			<a target="_blank" href="https://inovacao.ufrj.br/"><img id="logo" src="images/logo-agencia-novo.jpg"
 					alt="Logo Agência UFRJ de Inovação"></a>
+
+			<a target="_blank" href="https://inovacao.ufrj.br/"><img id="logo-drop-down"
+					src="images/logo-agencia-simple.gif" alt="Logo Agência UFRJ de Inovação"></a>
 
 			<nav id="links">
 				<ul>
 					<li><a target="_blank" href="https://inovacao.ufrj.br/">Agência de Inovação</a></li>
-					<li><a target="_blank" href="list.html">Lista de Empresas-Filhas</a></li>
+
+					<li><a target="_blank" href="list.html">Empresas Cadastradas</a>
+					</li>
+
 					<li><a target="_blank" href="https://forms.gle/J9iFyvDAd4w8APgu8">Cadastro</a></li>
 
 					<li><a target="_blank" href="https://inovacao.ufrj.br/index.php/contato/contato">CONTATO</a></li>
+					
 					<li><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img src="images/face-icon.png"
 								width="20" height="20"></a></li>
 					<li><a target="_blank"
@@ -63,7 +76,28 @@
 								src="images/linkedin-icon.png" width="20" height="20"></a></li>
 				</ul>
 			</nav>
-		</div>
+
+			 <ul id="links-drop-down"> 
+				
+					<li> 
+						
+						<img id="hamburguer" src="images/hamburguer.png" alt="menu"> 
+
+						<ul>
+
+							<li><a target="_blank" href="index.html">Empresas Cadastradas</a></li>
+
+							<li><a target="_blank" href="https://forms.gle/J9iFyvDAd4w8APgu8">Cadastro</a></li>
+
+							<li><a target="_blank" href="https://inovacao.ufrj.br/index.php/contato/contato">CONTATO</a></li>
+
+							<li><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img src="images/face-icon.png" width="30" height="30"></a><a target="_blank" href="https://www.linkedin.com/company/ag%C3%AAncia-ufrj-de-inova%C3%A7%C3%A3o/"><img	src="images/linkedin-icon.png" width="30" height="30"></a></li>
+						</ul>
+
+					</li>
+
+			</ul>
+		</div> 
 
 
 		<!--let the header as 				a flexbox-->
@@ -244,7 +278,7 @@
 		</div>
 	</section>
 
-	<footer>
+	<!-- <footer>
 
 		<section id="logos">
 
@@ -267,7 +301,67 @@
 
 
 		</section>
+	</footer> -->
+
+
+	<footer>
+
+		<section class="logos">
+
+			<a target="_blank" href="https://inovacao.ufrj.br/"><img id="logo-agencia-footer"
+					src="images/logo-agencia-simple.gif" alt="Logo Agência UFRJ de Inovação"></a>
+
+			<a target="_blank" href="https://ufrj.br"><img id="logo-ufrj" src="images/logo-ufrj.svg"
+					alt="Logo UFRJ"></a>
+
+			<nav id="social">
+				<ul>
+					<li id="facebook"><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img
+								src="images/face-icon.png" width="50" height="50"></a></li>
+					<li id="linkedin"><a target="_blank"
+							href="https://www.linkedin.com/company/ag%C3%AAncia-ufrj-de-inova%C3%A7%C3%A3o/"><img
+								src="images/linkedin-icon.png" width="50" height="50"></a></li>
+				</ul>
+			</nav>
+			<div id="cop">
+				<p>© COPYRIGHT <a target="_blank" href="https://github.com/angelis-reis">ANGELIS-REIS </a> 2020</p>
+
+			</div>
+
+
+		</section>
 	</footer>
+
+
+
+	<script>  
+		// script to show and hide the drop down menu when the user clicks the hamburguer icon
+
+		document.getElementById("links-drop-down").addEventListener("click", 
+		
+		function(){
+
+			var x= document.querySelector("#links-drop-down li ul")
+
+			if (x.style.display==="none"){
+
+				x.style.display = "inherit";
+			}
+			else{
+
+				x.style.display = "none";
+			}
+			
+		}	);
+
+	</script>
+
+
+
+
+
+
+
 </body>
 
 </html>
