@@ -61,20 +61,20 @@ body {
 		margin-right: -10px;
 	}
 
-	#title {
-		padding-top: 290px;
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		color: #ffffff;
-	}
+	
 
 	#title-large {
+		text-align: center;
+		color: #ffffff;
 		font-size: 47px;
 		line-height: 60px;
 		letter-spacing: 1px;
+		padding-bottom: 50px;
+		padding-top: 200px;
 	}
+
+
+
 
 	#subtitle {
 		padding-top: 40px;
