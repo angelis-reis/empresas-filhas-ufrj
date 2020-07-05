@@ -50,9 +50,11 @@ body {
 
 	header {
 		margin-top: -16px;
-		background-image: url("../images/campus3.jpg");
+		background-image: url("../images/ponte_estaiada2.jpg");
+		background-size: cover;
 		background-position: center 30%;
 		background-repeat: no-repeat;
+		
 		height: 582px;
 		padding-top: 0px;
 		margin-left: -10px;
