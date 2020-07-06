@@ -50,7 +50,11 @@ body {
 
 	header {
 		margin-top: -16px;
-		background-image: url("../images/ponte_estaiada2.jpg");
+		/* background-image: url("../images/header/ponte_estaiada2.jpg"); */
+		background-image: url("../images/header/ponte_estaiada2-blue.jpg");
+		/* background-image: url("../images/header/ponte_estaiada2-green.jpg"); */
+		/* background-image: url("../images/header/ponte_estaiada2-pink.jpg"); */
+		
 		background-size: cover;
 		background-position: center 30%;
 		background-repeat: no-repeat;
@@ -62,7 +66,7 @@ body {
 	}
 
 	#title {
-		padding-top: 290px;
+		padding-top: 300px;
 		width: 800px;
 		margin-left: auto;
 		margin-right: auto;

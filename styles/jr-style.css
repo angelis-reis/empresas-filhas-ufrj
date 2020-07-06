@@ -51,13 +51,14 @@ body {
 
 	header {
 		margin-top: -16px;
-		/* background-image: url("../images/header/startup.jpg"); */
-		/* background-image: url("../images/header/startup-blue.jpg"); */
-		background-image: url("../images/header/startup-green.jpg");
-		/* background-image: url("../images/header/startup-pink.jpg"); */
+		/* background-image: url("../images/header/jr.jpg"); */
+		/* background-image: url("../images/header/jr-blue.jpg"); */
+		/* background-image: url("../images/header/jr-green.jpg"); */
+		background-image: url("../images/header/jr-pink.jpg");
+		
 		background-position: center 30%;
 		background-repeat: repeat;
-		background-size: 120%;
+		background-size: auto;
 		height: 582px;
 		padding-top: 0px;
 		margin-left: -10px;
