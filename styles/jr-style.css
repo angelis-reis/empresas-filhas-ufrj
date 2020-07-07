@@ -51,10 +51,10 @@ body {
 
 	header {
 		margin-top: -16px;
-		/* background-image: url("../images/header/jr.jpg"); */
+		background-image: url("../images/header/jr.jpg");
 		/* background-image: url("../images/header/jr-blue.jpg"); */
 		/* background-image: url("../images/header/jr-green.jpg"); */
-		background-image: url("../images/header/jr-pink.jpg");
+		/* background-image: url("../images/header/jr-pink.jpg"); */
 		
 		background-position: center 30%;
 		background-repeat: repeat;
