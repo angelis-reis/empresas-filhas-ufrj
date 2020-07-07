@@ -87,21 +87,35 @@
 				</ul>
 			</nav>
 
-			 <ul id="links-drop-down"> 
+			<ul id="links-drop-down"> 
 				
 					<li> 
+
+
+						<a > 
+							<img id="hamburguer"  src="images/hamburguer.png" alt="menu"> 
+						</a>
 						
-						<img id="hamburguer" src="images/hamburguer.png" alt="menu"> 
+						
 
 						<ul>
 
-							<li><a target="_blank" href="index.html">Empresas Cadastradas</a></li>
+							<li><a target="_blank" href="https://inovacao.ufrj.br/">Agência de Inovação</a></li>
+
+							<li><a target="_blank" href="list.html">Empresas Cadastradas</a>
+							</li>
 
 							<li><a target="_blank" href="https://forms.gle/J9iFyvDAd4w8APgu8">Cadastro</a></li>
 
-							<li><a target="_blank" href="https://inovacao.ufrj.br/index.php/contato/contato">CONTATO</a></li>
+							<li><a target="_blank" href="jr.html">EMPRESAS JR</a></li>
 
-							<li><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img src="images/face-icon.png" width="30" height="30"></a><a target="_blank" href="https://www.linkedin.com/company/ag%C3%AAncia-ufrj-de-inova%C3%A7%C3%A3o/"><img	src="images/linkedin-icon.png" width="30" height="30"></a></li>
+							<li><a target="_blank" href="https://inovacao.ufrj.br/index.php/contato/contato">CONTATO</a></li>
+							
+							<li><a target="_blank" href="https://www.facebook.com/inovacaoufrj"><img src="images/face-icon.png"
+										width="30" height="30"></a></li>
+							<li><a target="_blank"
+									href="https://www.linkedin.com/company/ag%C3%AAncia-ufrj-de-inova%C3%A7%C3%A3o/"><img
+										src="images/linkedin-icon.png" width="30" height="30"></a></li>
 						</ul>
 
 					</li>
@@ -115,6 +129,9 @@
 		<div >
 			
 			<h1 id="title-large">EMPRESAS-FILHAS DA UFRJ </h1>
+			
+
+			
 			
 		</div>
 	</header>
@@ -331,7 +348,9 @@
 
 			var x= document.querySelector("#links-drop-down li ul")
 
-			if (x.style.display==="none"){
+			console.log(x.style.display);
+
+			if (x.style.display!=="inherit"){
 
 				x.style.display = "inherit";
 				console.log("click");
