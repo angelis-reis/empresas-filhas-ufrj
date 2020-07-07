@@ -51,9 +51,9 @@ body {
 
 	header {
 		margin-top: -16px;
-		/* background-image: url("../images/header/startup.jpg"); */
+		background-image: url("../images/header/startup.jpg");
 		/* background-image: url("../images/header/startup-blue.jpg"); */
-		background-image: url("../images/header/startup-green.jpg");
+		/* background-image: url("../images/header/startup-green.jpg"); */
 		/* background-image: url("../images/header/startup-pink.jpg"); */
 		background-position: center 30%;
 		background-repeat: repeat;

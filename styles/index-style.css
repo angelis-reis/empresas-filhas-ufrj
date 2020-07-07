@@ -122,7 +122,7 @@ body {
 
 
 	#beneficios {
-		background-color: #b4aeae;
+		background-color: #2c4059;
 		height: 700px;
 		margin-left: -8px;
 		margin-right: -8px;
@@ -228,10 +228,10 @@ body {
 	}
 
 	.numero {
-		font-size: 60px;
+		font-size: 70px;
 		line-height: 1em;
 		font-weight: 300;
-		color: #f73504;
+		color: #ff0707;
 		display: inline-block !important;
 		height: 1em;
 		margin-top: 0px;
@@ -272,7 +272,7 @@ body {
 	}
 
 	#bilhoes {
-		color: #f73504;
+		color: #ff0707;
 	}
 
 	#invest {
@@ -372,5 +372,3 @@ body {
 		padding-left: 20px;
 
 	}
-
-	
