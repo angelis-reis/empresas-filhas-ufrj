@@ -152,13 +152,9 @@
         display: none;
     }
 
-    
-
-
     #links-drop-down {
         display: inherit;		
-        position: absolute;		
-        /* display: block; */
+        position: absolute;
     }
     
     #links-drop-down li{
@@ -166,23 +162,27 @@
     }
     
     #links-drop-down li ul {
-        display: none;
+        display: none;        
         margin-left: -50px;
-        margin-top: 10px;
+        padding-top: 20px;
+        
         width: 100vw;
-       
-       
-        padding-top: 100px;		
         list-style-type: none;	
         background-color:black;
-        
-        border-radius: 30px;
     }
+
+    #links-drop-down li ul li {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+    
+
 
 
   
     
-    #links-drop-down a {
+    #links-drop-down li ul a {
         padding: 0px 0px;
         display: block;
         font-size: 18px;
