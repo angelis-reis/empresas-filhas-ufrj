@@ -1,3 +1,11 @@
+html, body, h2
+{  
+    margin: 0;  
+    padding: 0; 
+}
+
+
+
 #cabecalho {	
     display: flex;
     position: fixed;
@@ -15,9 +23,6 @@
     justify-content: space-between;
     background-color: black;
 }
-
-    
-
 
     #logo {	
         align-items: center;
@@ -97,7 +102,7 @@
 
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1050px) {
 
     #cabecalho {	
         display: flex;
@@ -105,13 +110,9 @@
         top: 0;
         right: 0;
         left: 0;		
-        max-width: 100vw;		
         height: 110px;
-        
-        
         justify-content: space-between;		
         background-color: black;
-       
     }
 
     #logo {	
@@ -152,13 +153,9 @@
         display: none;
     }
 
-    
-
-
     #links-drop-down {
         display: inherit;		
-        position: absolute;		
-        /* display: block; */
+        position: absolute;
     }
     
     #links-drop-down li{
@@ -166,23 +163,22 @@
     }
     
     #links-drop-down li ul {
-        display: none;
+        display: none;        
         margin-left: -50px;
-        margin-top: 10px;
+        padding-top: 20px;
+        
         width: 100vw;
-       
-       
-        padding-top: 100px;		
         list-style-type: none;	
         background-color:black;
-        
-        border-radius: 30px;
     }
 
-
-  
+    #links-drop-down li ul li {
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
     
-    #links-drop-down a {
+    #links-drop-down li ul a {
         padding: 0px 0px;
         display: block;
         font-size: 18px;
@@ -195,9 +191,52 @@
         align-content: center;
         text-align: center;
     }
-    
+
+}
 
 
-    
 
-}	
+
+@media only screen and (max-width: 450px){
+
+
+    #cabecalho {	
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        /* top: 0;
+        right: 0;
+        left: 0;		 */
+        height: 110px;
+        /* width: 100vw; */
+        /* width: 100%; */
+        		
+        background-color: black;
+        grid-template-areas: 
+        "hamburguer logo-drop-down"
+    }
+
+
+    #logo-drop-down {
+        display: grid;
+        grid-area: logo-drop-down;
+        justify-self: end;
+    }
+
+    #hamburguer{
+        display: grid;
+        grid-area: hamburguer;
+        justify-self: start;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
