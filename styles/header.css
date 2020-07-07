@@ -208,7 +208,7 @@ html, body, h2
         left: 0;		 */
         height: 110px;
         /* width: 100vw; */
-        width: 100%;
+        /* width: 100%; */
         		
         background-color: black;
         grid-template-areas: 
