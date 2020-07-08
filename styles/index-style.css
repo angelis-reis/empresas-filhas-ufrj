@@ -268,22 +268,11 @@ body {
 		padding-right: 100px;
 	}
 
-	.grafico-unico {
-		width: 80%;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
+
+	
 
 	.graficos {
-		float: left;
-		width: 50%;
-		text-align: center;
-	}
-
-	.graficos2 {
-		float: left;
-
 		text-align: center;
 	}
 
@@ -306,6 +295,44 @@ body {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+
+
+	#graficos-empresas{
+		display:grid;
+		gap: 20px;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 500px 700px 500px;
+		grid-template-areas: 
+		"vinculo origem"
+		"atuacao atuacao"
+		"sede porte";
+	}
+
+		#vinculo{;
+			grid-area: vinculo;
+
+		}
+
+		#origem{
+			grid-area: origem;
+
+		}
+
+		#atuacao{
+			grid-area: atuacao;
+
+
+		}
+
+		#sede{
+			grid-area: sede;
+
+		}
+
+		#porte{
+
+		}
 
 	
 
