@@ -348,6 +348,11 @@ body {
 		align-content: center;
 		padding-bottom: 40px;
 	}
+
+	#sub-title-empresas{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
 }
 
 
@@ -363,6 +368,11 @@ body {
 		justify-content: center;
 		align-content: center;
 		padding-bottom: 40px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 60px;
+		padding-right: 60px;
 	}
 }
 
@@ -406,6 +416,10 @@ body {
 		line-height: 62px;
 		font-weight: 700;
 		text-transform: uppercase;
+	}
+	#sub-title-empresas{
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 
@@ -501,6 +515,11 @@ body {
 		letter-spacing: 1px;
 		padding-bottom: 50px;
 		padding-top: 200px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 
