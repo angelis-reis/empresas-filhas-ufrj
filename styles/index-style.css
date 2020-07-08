@@ -309,7 +309,7 @@ body {
 		"sede porte";
 	}
 
-		#vinculo{;
+		#vinculo{
 			grid-area: vinculo;
 
 		}
@@ -331,6 +331,53 @@ body {
 		}
 
 		#porte{
+			grid-area: porte;
+
+		}
+
+	#dados{
+		display:grid;
+		justify-items: center;
+		gap: 15px;
+		text-align: center;
+		justify-content: center; 
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 150px 30px 160px 250px;
+		grid-template-areas: 
+		"dados-empresas dados-empresas"
+		"separador-linha separador-linha"
+		"empresas-cadastradas empregos-gerados"
+		"faturamento-2018 faturamento-2018";
+	}
+
+		#dados-empresas{
+			grid-area: dados-empresas;
+			padding-top: 50px;
+
+		}
+
+		#separador-linha{
+			grid-area: separador-linha;
+			width: 100vw;
+			
+
+		}
+
+		#empresas-cadastradas{
+			grid-area: empresas-cadastradas;
+
+		}
+
+		#empregos-gerados{
+			grid-area: empregos-gerados;
+
+		}
+
+		#faturamento-2018{
+			grid-area: faturamento-2018;
+			width: 650px;
+			
+			
 
 		}
 
