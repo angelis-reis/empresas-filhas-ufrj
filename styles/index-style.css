@@ -1,7 +1,7 @@
-html, body, h2, h1, h3, h4
-{  
+html, body, h2, h1, h3, h4, p{  
     margin: 0;  
-    padding: 0; 
+	padding: 0; 
+	color: black;
 }
 
 html {
@@ -13,8 +13,6 @@ html {
 }
 
 h4 {
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-size: 23px;
 	line-height: 31px;
 	font-style: normal;
@@ -24,8 +22,6 @@ h4 {
 }
 
 h2 {
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-size: 43px;
 	line-height: 47px;
 	font-style: normal;
@@ -35,8 +31,6 @@ h2 {
 }
 
 p {
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	line-height: 26px;
@@ -52,8 +46,6 @@ img {
 
 body {
 	font-family: "Montserrat", sans-serif;
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -61,14 +53,9 @@ body {
 	header {
 		margin-top: -16px;
 		background-image: url("../images/header/ponte_estaiada2.jpg");
-		/* background-image: url("../images/header/ponte_estaiada2-blue.jpg"); */
-		/* background-image: url("../images/header/ponte_estaiada2-green.jpg"); */
-		/* background-image: url("../images/header/ponte_estaiada2-pink.jpg"); */
-		
 		background-size: cover;
 		background-position: center 30%;
 		background-repeat: no-repeat;
-		
 		height: 582px;
 		padding-top: 0px;
 		margin-left: -10px;
@@ -98,7 +85,6 @@ body {
 		padding-left: 200px;
 	}
 
-
 		.button1 {
 			border-radius: 15px;
 			border-style: solid;
@@ -106,7 +92,6 @@ body {
 			background: none;
 			font-size: 20px;
 			font-weight: bolder;
-			
 			margin-top: 50px;
 			padding: 20px 43px;
 			font-family: "Open Sans", sans-serif;
@@ -117,15 +102,10 @@ body {
 			background-color: #39ff14;
 		}
 
-
-		
-
-
 	#torta-top {
 		padding-bottom: -10px;
 		margin-left: -8px;
 	}
-
 
 	#beneficios {
 		background-color: #2c4059;
@@ -140,16 +120,12 @@ body {
 			margin-top: -4px;
 		}
 
-
-
 		.separador {
 			height: 4px;
 			margin-top: 5px;
 			margin-bottom: 15px;
 			background: linear-gradient(to right, #81d742, #1e73be);
 		}
-
-	
 
 		.column {
 			width: 33%;
@@ -178,10 +154,6 @@ body {
 
 					padding: 15px 0px 10px 120px;
 				}
-
-			
-
-			
 
 			#text1 {
 				color: #fff;
@@ -267,7 +239,6 @@ body {
 		margin: 12px 0 0;
 		color: #c0c957;
 		font-size: 60px;
-
 		line-height: 1em;
 		font-weight: 300;
 		color: #0076b9;
@@ -387,17 +358,12 @@ body {
 	}
 }
 
-
-
 @media only screen and (min-width: 500px) and (max-width: 800px){
 
 	#subtitle{
 		padding-right: 50px;
 		padding-left: 50px;
-
 	}
-
-	
 }
 
 @media only screen and (max-width: 600px){
@@ -414,14 +380,11 @@ body {
 		font-family: "Open Sans", sans-serif;
 		cursor: pointer;
 	}
-
 }
 
-
 @media only screen and (max-width: 500px){
-
 	#subtitle{
 		padding-right: 20px;
 		padding-left: 20px;
-
 	}
+}
