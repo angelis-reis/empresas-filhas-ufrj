@@ -388,7 +388,7 @@ body {
 		display: grid;
 		grid-template-columns: 1fr 600px 1fr;
 		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:15px;
+		gap:25px;
 		background-color: #2c4059;
 		grid-template-areas: 
 		"torto-top torto-top torto-top"
