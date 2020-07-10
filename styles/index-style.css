@@ -424,10 +424,15 @@ body {
 		"porte";
 	}
 
+	.image-cards-grid{
+		
+		grid-template-rows: 350px 110px 150px;
+	}
+
 	.card-icon{
 		grid-area:card-icon;
-		max-width: 90%;
-		max-height: 90%;
+		max-width: 80%;
+		max-height: 80%;
 		
 	}
 }
