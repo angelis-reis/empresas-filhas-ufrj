@@ -316,6 +316,15 @@ body {
 
 		}
 
+		#atuacao-90{
+			display: none;
+			grid-area: atuacao;
+			align-self: center;
+			justify-self: center;
+
+
+		}
+
 		#sede{
 			grid-area: sede;
 			align-self: center;
@@ -421,17 +430,32 @@ body {
 		"atuacao"
 		"sede"
 		"porte";
-	}
-
-	#atuacao img{
-		transform: rotate(90deg);
-		z-index: -1;
-		/* padding-top: 200px; */
-	}
+	}	
 
 	#atuacao h4{
 		padding-bottom: 130px;
 	}
+
+	#atuacao{
+		display: none;
+		grid-area: atuacao;
+		align-self: center;
+		justify-self: center;
+
+
+	}
+
+	#atuacao-90{
+		display: inherit;
+		grid-area: atuacao;
+		align-self: center;
+		justify-self: center;
+
+
+	}
+
+
+
 }
 
 @media only screen and (min-width: 500px) and (max-width: 800px){
