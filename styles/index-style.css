@@ -117,6 +117,8 @@ body {
 			text-align: center;
 			color: #fff;
 			margin-top: -4px;
+			margin margin-left: 10px;
+			margin margin-right: 10px;
 		}
 
 		.separador {
@@ -158,6 +160,8 @@ body {
 			align-self: center;
 		}	
 
+
+
 		#image-card1{
 			grid-area: image-card1;
 		}
@@ -176,7 +180,7 @@ body {
 				margin-right: 15px;	
 				display:grid;
 				grid-template-columns: 1fr 3fr;
-				grid-template-rows: 350px 70px 150px;			
+				grid-template-rows: 350px 90px 150px;			
 				grid-template-areas: 
 				"photo photo"
 				"card-icon card-title"
@@ -375,6 +379,10 @@ body {
 
 
 @media only screen and (max-width: 1250px){
+
+	body {
+		width: 100vw;
+	}
 
 	#cards{
 		display: grid;
