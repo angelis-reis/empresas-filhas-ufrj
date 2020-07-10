@@ -58,10 +58,6 @@ body {
 	header {
 		margin-top: -16px;
 		background-image: url("../images/header/jr.jpg");
-		/* background-image: url("../images/header/jr-blue.jpg"); */
-		/* background-image: url("../images/header/jr-green.jpg"); */
-		/* background-image: url("../images/header/jr-pink.jpg"); */
-		
 		background-position: center 30%;
 		background-repeat: repeat;
 		background-size: auto;
@@ -192,8 +188,8 @@ body {
 
 	#list {
 		display: grid;
-		row-gap: 30px;
-		column-gap: 30px;
+		row-gap: 20px;
+		column-gap: 20px;
 		grid-template-columns: repeat(5, 1fr);
 		align-items: center;
 		justify-items: center;
@@ -216,21 +212,9 @@ body {
 			align-content: center;
 		}
 
-		.logo-empresa img{
+		
 
-			object-fit: cover;
-			width: 100%;
-			max-height: 100%;
-
-			
-		}
-
-
-	footer{
-
-
-	}
-
+	
 		.logos {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;

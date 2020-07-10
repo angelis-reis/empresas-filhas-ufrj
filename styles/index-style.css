@@ -1,7 +1,7 @@
-html, body, h2, h1, h3, h4
-{  
+html, body, h2, h1, h3, h4, p{  
     margin: 0;  
-    padding: 0; 
+	padding: 0; 
+	color: black;
 }
 
 html {
@@ -13,8 +13,6 @@ html {
 }
 
 h4 {
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-size: 23px;
 	line-height: 31px;
 	font-style: normal;
@@ -24,8 +22,6 @@ h4 {
 }
 
 h2 {
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-size: 43px;
 	line-height: 47px;
 	font-style: normal;
@@ -35,8 +31,6 @@ h2 {
 }
 
 p {
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	line-height: 26px;
@@ -52,8 +46,6 @@ img {
 
 body {
 	font-family: "Montserrat", sans-serif;
-	/* color: rgb(10, 3, 107); */
-	color: black;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -61,21 +53,14 @@ body {
 	header {
 		margin-top: -16px;
 		background-image: url("../images/header/ponte_estaiada2.jpg");
-		/* background-image: url("../images/header/ponte_estaiada2-blue.jpg"); */
-		/* background-image: url("../images/header/ponte_estaiada2-green.jpg"); */
-		/* background-image: url("../images/header/ponte_estaiada2-pink.jpg"); */
-		
 		background-size: cover;
 		background-position: center 30%;
 		background-repeat: no-repeat;
-		
 		height: 582px;
 		padding-top: 0px;
 		margin-left: -10px;
 		margin-right: -10px;
 	}
-
-	
 
 		#title-large {
 			text-align: center;
@@ -87,17 +72,17 @@ body {
 			padding-top: 300px;
 		}
 
-
-
-
 	#subtitle {
 		text-align: center;
-		padding-bottom: 50px;
+		padding-bottom: 100px;
 		padding-top: 80px;
 		padding-right: 200px;
 		padding-left: 200px;
 	}
 
+		#subtitle h4{
+			padding-bottom: 80px;;
+		}
 
 		.button1 {
 			border-radius: 15px;
@@ -106,7 +91,6 @@ body {
 			background: none;
 			font-size: 20px;
 			font-weight: bolder;
-			
 			margin-top: 50px;
 			padding: 20px 43px;
 			font-family: "Open Sans", sans-serif;
@@ -117,15 +101,10 @@ body {
 			background-color: #39ff14;
 		}
 
-
-		
-
-
 	#torta-top {
 		padding-bottom: -10px;
 		margin-left: -8px;
 	}
-
 
 	#beneficios {
 		background-color: #2c4059;
@@ -140,8 +119,6 @@ body {
 			margin-top: -4px;
 		}
 
-
-
 		.separador {
 			height: 4px;
 			margin-top: 5px;
@@ -149,185 +126,228 @@ body {
 			background: linear-gradient(to right, #81d742, #1e73be);
 		}
 
-	
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1px 130px 50px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"image-card1 image-card2 image-card3"
+		"torto-bottom torto-bottom torto-bottom";
+	}
 
-		.column {
-			width: 33%;
-			margin-bottom: 16px;
-			padding: 0 8px;
-			box-sizing: border-box;
-			float: left;
-			margin-block-end: 0px;
-			margin-block-start: 0px;
-			margin-inline-start: 0px;
-			margin-inline-end: 0px;
+		#torto-top{
+			grid-area: torto-top;
+			background-color: white;
+			align-self: end;
+			margin-bottom: -5px;
+			z-index: -1;
+		}
+		
+		#rede-empresas{
+			grid-area: rede-empresas;
+			align-self: center;
 		}
 
-			.fotos {
-				width: 400px;
-				height: 250px;
+		#separador-cards{
+			grid-area: separador-cards;
+			align-self: center;
+		}	
+
+		#image-card1{
+			grid-area: image-card1;
+		}
+
+		#image-card2{
+			grid-area: image-card2;
+		}
+
+		#image-card3{
+			grid-area: image-card3;
+		}
+		
+			.image-cards-grid{
+				gap:15px;
+				margin-left: 15px;	
+				margin-right: 15px;	
+				display:grid;
+				grid-template-columns: 1fr 3fr;
+				grid-template-rows: 350px 70px 150px;			
+				grid-template-areas: 
+				"photo photo"
+				"card-icon card-title"
+				"card-text card-text";
 			}
 
-				.icon {
-					max-width: 20%;
-					float: left;
+				.photo{
+					grid-area: photo;
+					max-width: 100%;
+					max-height: 100%;
+					align-self: center;
+					justify-self: center;
 				}
 
-				.column h4 {
-					color: #fff;
-
-					padding: 15px 0px 10px 120px;
+				.card-icon{
+					grid-area:card-icon;
+					max-width: 100%;
+					max-height: 100%;
+					align-self: center;
+					justify-self: center;
 				}
 
+				.card-title{
+					grid-area:card-title;
+					color: white;
+					max-width: 100%;
+					max-height: 100%;
+					align-self: center;
+					justify-self: start;
+					font-size: 33px;
+					line-height: 31px;
+					font-style: normal;
+					font-weight: 700;
+					letter-spacing: 0px;
+					text-transform: none;
+				}
+
+				.card-text{
+					grid-area:card-text;
+					color: white;
+					max-width: 100%;
+					max-height: 100%;
+					align-self: center;
+					justify-self: center;
+				}		
+
+		#torto-bottom{
+			grid-area: torto-bottom;
+			background-color: white;
+		}
+
+	#dados{
+		display:grid;
+		justify-items: center;
+		gap: 15px;
+		text-align: center;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 150px 30px 160px 320px;
+		grid-template-areas: 
+		"dados-empresas dados-empresas"
+		"separador-linha separador-linha"
+		"empresas-cadastradas empregos-gerados"
+		"faturamento-2018 faturamento-2018";
+	}
+
+		#dados-empresas{
+			grid-area: dados-empresas;
+			padding-top: 50px;
+		}
+
+		#separador-linha{
+			grid-area: separador-linha;
+			width: 100vw;
+		}
+
+		#empresas-cadastradas{
+			grid-area: empresas-cadastradas;
+		}
+
+		#empregos-gerados{
+			grid-area: empregos-gerados;
+		}
+
+		#faturamento-2018{
+			grid-area: faturamento-2018;
+			width: 650px;
+		}
+
+		.numero {
+			font-size: 70px;
+			line-height: 1em;
+			font-weight: 300;
+			color: #ff0707;
+			display: inline-block !important;
+			height: 1em;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		#mais-de {
+			max-width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+	#graficos-empresas{
+		display:grid;
+		gap: 20px;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 500px 700px 500px;		
+		grid-template-areas: 
+		"vinculo origem"
+		"atuacao atuacao"
+		"sede porte";
+	}
+
+		#vinculo{
+			grid-area: vinculo;
+			align-self: center;
+			justify-self: center;
 			
 
-			
-
-			#text1 {
-				color: #fff;
-				padding-top: 16px;
-			}
-
-				.column p {
-					color: #fff;
-				}
-
-			#text2 {
-				color: #fff;
-			}
-
-			#text3 {
-				color: #fff;
-			}
-
-		.column img {
-			width: 100%;
 		}
 
-		#h4-text3 {
-			font-size: 21px;
+		#origem{
+			grid-area: origem;
+			align-self: center;
+			justify-self: center;
+
 		}
 
-	.torta {
-		position: absolute;
-		z-index: 20;
-		display: block;
-		bottom: -85px;
-		background-color: #fafafa;
-		padding-top: 100px;
-		padding-bottom: 5px;
-		text-align: left;
-		margin-right: -8px;
-	}
+		#atuacao{
+			grid-area: atuacao;
+			align-self: center;
+			justify-self: center;
 
-	#torta-bottom {
-		margin-right: -8px;
-	}
 
-	.clear {
-		clear: both;
-		padding-top: 40px;
-	}
+		}
 
-	#dados-empresas {
-		text-align: center;
-	}
+		#sede{
+			grid-area: sede;
+			align-self: center;
+			justify-self: center;
 
-	.numero {
-		font-size: 70px;
-		line-height: 1em;
-		font-weight: 300;
-		color: #ff0707;
-		display: inline-block !important;
-		height: 1em;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
+		}
 
-	.dezenove {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin: 12px 0 0;
-		color: #c0c957;
-	}
+		#porte{
+			grid-area: porte;
+			align-self: center;
+			justify-self: center;
 
-	.empregos {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin: 12px 0 0;
-		color: #c0c957;
-	}
+		}
 
-	.empregos19 {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin: 12px 0 0;
-		color: #c0c957;
-		font-size: 60px;
+		.graficos {
+			text-align: center;
+		}
 
-		line-height: 1em;
-		font-weight: 300;
-		color: #0076b9;
-		display: inline-block !important;
-		height: 1em;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
 
-	#bilhoes {
-		color: #ff0707;
-	}
 
-	#invest {
-		background-color: #fafafa;
-		padding-bottom: 40px;
-	}
 
-	#int {
-		padding-right: 100px;
-	}
 
-	.grafico-unico {
-		width: 80%;
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-	}
 
-	.graficos {
-		float: left;
-		width: 50%;
-		text-align: center;
-	}
 
-	.graficos2 {
-		float: left;
 
-		text-align: center;
-	}
 
-	.graficos3 {
-		float: center;
-		width: 50%;
-		text-align: center;
-		margin-top: 110px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
 
-	#mais-de {
-		max-width: 70%;
-	}
 
-	h2#mais-de {
-		margin-left: auto;
-		margin-right: auto;
-	}
+
+
+
+
 
 	
 
@@ -345,62 +365,120 @@ body {
 
 
 
+@media only screen and (max-width: 1250px){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 600px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
+}
 
 @media only screen and (min-width: 800px) and (max-width: 1150px){
 
 	#subtitle{
 		padding-right: 100px;
 		padding-left: 100px;
-
 	}
 }
 
+@media only screen and (max-width: 1000px){
 
+	#graficos-empresas{
+		display:grid;	
+		gap: 20px;	
+		grid-template-columns: 1fr;
+		grid-template-rows: 500px 500px 700px 500px 500px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+}
+
+@media only screen and (max-width: 800px){
+
+	#graficos-empresas{
+		display:grid;		
+		gap: 20px;
+		grid-template-columns: 1fr;
+		grid-template-rows: 600px 600px 900px 600px 600px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao img{
+		transform: rotate(90deg);
+		z-index: -1;
+		/* padding-top: 200px; */
+	}
+
+	#atuacao h4{
+		padding-bottom: 130px;
+	}
+}
 
 @media only screen and (min-width: 500px) and (max-width: 800px){
 
 	#subtitle{
 		padding-right: 50px;
 		padding-left: 50px;
-
 	}
+}
 
+@media only screen and (max-width: 650px){
 	
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 450px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
 }
 
 @media only screen and (max-width: 600px){
+
+	#graficos-empresas{
+		display:grid;		
+		grid-template-columns: 1fr;
+		grid-template-rows: 500px 500px 650px 500px 500px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao h4{
+		padding-bottom: 85px;
+	}
+
 	.button1 {
 		display: block;
 		border-radius: 15px;
@@ -414,14 +492,110 @@ body {
 		font-family: "Open Sans", sans-serif;
 		cursor: pointer;
 	}
-
 }
 
-
 @media only screen and (max-width: 500px){
+
+	#graficos-empresas{
+		display:grid;		
+		grid-template-columns: 1fr;
+		grid-template-rows: 320px 320px 650px 320px 360px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao h4{
+		padding-bottom: 85px;
+	}
+
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 350px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
+
+	#card-title-3{
+		font-size: 25px;
+	}
+
+	#faturamento-2018 {
+		width: 450px;
+	}
+
+	#dados{		
+		grid-template-rows: 200px 30px 160px 400px;		
+	}
 
 	#subtitle{
 		padding-right: 20px;
 		padding-left: 20px;
-
 	}
+}
+
+@media only screen and (max-width: 400px){
+
+	#graficos-empresas{
+		display:grid;		
+		grid-template-columns: 1fr;
+		grid-template-rows: 320px 320px 600px 320px 360px;
+		grid-template-areas: 
+		"vinculo"
+		"origem"
+		"atuacao"
+		"sede"
+		"porte";
+	}
+
+	#atuacao h4{
+		padding-bottom: 85px;
+	}
+
+	#faturamento-2018 h2{
+		font-size: 35px;
+	}
+
+	.numero {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 350px){
+
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 300px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";		
+	}
+
+	#card-title-3{
+		font-size: 18px;
+	}
+
+	#dados{		
+		grid-template-rows: 250px 30px 160px 250px;		
+	}
+}
