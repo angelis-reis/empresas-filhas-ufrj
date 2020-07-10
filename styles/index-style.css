@@ -62,8 +62,6 @@ body {
 		margin-right: -10px;
 	}
 
-	
-
 		#title-large {
 			text-align: center;
 			color: #ffffff;
@@ -73,9 +71,6 @@ body {
 			padding-bottom: 50px;
 			padding-top: 300px;
 		}
-
-
-
 
 	#subtitle {
 		text-align: center;
@@ -89,8 +84,6 @@ body {
 			padding-bottom: 80px;;
 		}
 
-		
-
 		.button1 {
 			border-radius: 15px;
 			border-style: solid;
@@ -102,7 +95,6 @@ body {
 			padding: 20px 43px;
 			font-family: "Open Sans", sans-serif;
 			cursor: pointer;
-			
 		}
 
 		.button1:hover {
@@ -134,171 +126,6 @@ body {
 			background: linear-gradient(to right, #81d742, #1e73be);
 		}
 
-		.column {
-			width: 33%;
-			margin-bottom: 16px;
-			padding: 0 8px;
-			box-sizing: border-box;
-			float: left;
-			margin-block-end: 0px;
-			margin-block-start: 0px;
-			margin-inline-start: 0px;
-			margin-inline-end: 0px;
-		}
-
-			.fotos {
-				width: 400px;
-				height: 250px;
-			}
-
-				.icon {
-					max-width: 20%;
-					float: left;
-				}
-
-				.column h4 {
-					color: #fff;
-
-					padding: 15px 0px 10px 120px;
-				}
-
-			#text1 {
-				color: #fff;
-				padding-top: 16px;
-			}
-
-				.column p {
-					color: #fff;
-				}
-
-			#text2 {
-				color: #fff;
-			}
-
-			#text3 {
-				color: #fff;
-			}
-
-		.column img {
-			width: 100%;
-		}
-
-		#h4-text3 {
-			font-size: 21px;
-		}
-
-	.torta {
-		position: absolute;
-		z-index: 20;
-		display: block;
-		bottom: -85px;
-		background-color: #fafafa;
-		padding-top: 100px;
-		padding-bottom: 5px;
-		text-align: left;
-		margin-right: -8px;
-	}
-
-	#torta-bottom {
-		margin-right: -8px;
-	}
-
-	.clear {
-		clear: both;
-		padding-top: 40px;
-	}
-
-	#dados-empresas {
-		text-align: center;
-	}
-
-	.numero {
-		font-size: 70px;
-		line-height: 1em;
-		font-weight: 300;
-		color: #ff0707;
-		display: inline-block !important;
-		height: 1em;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-
-	.dezenove {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin: 12px 0 0;
-		color: #c0c957;
-	}
-
-	.empregos {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin: 12px 0 0;
-		color: #c0c957;
-	}
-
-	.empregos19 {
-		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
-		margin: 12px 0 0;
-		color: #c0c957;
-		font-size: 60px;
-		line-height: 1em;
-		font-weight: 300;
-		color: #0076b9;
-		display: inline-block !important;
-		height: 1em;
-		margin-top: 0px;
-		margin-bottom: 0px;
-	}
-
-	#bilhoes {
-		color: #ff0707;
-	}
-
-	#invest {
-		
-		padding-bottom: 40px;
-	}
-
-	#int {
-		padding-right: 100px;
-	}
-
-	
-
-	
-
-	.graficos {
-		text-align: center;
-		
-		
-	}
-
-	.graficos3 {
-		float: center;
-		width: 50%;
-		text-align: center;
-		margin-top: 110px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-
-	#mais-de {
-		max-width: 70%;
-	}
-
-	h2#mais-de {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
 	#cards{
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -311,7 +138,6 @@ body {
 		"separador-cards separador-cards separador-cards"
 		"image-card1 image-card2 image-card3"
 		"torto-bottom torto-bottom torto-bottom";
-		
 	}
 
 		#torto-top{
@@ -320,22 +146,17 @@ body {
 			align-self: end;
 			margin-bottom: -5px;
 			z-index: -1;
-
 		}
 		
 		#rede-empresas{
 			grid-area: rede-empresas;
 			align-self: center;
-
 		}
 
 		#separador-cards{
 			grid-area: separador-cards;
 			align-self: center;
-
 		}	
-
-
 
 		#image-card1{
 			grid-area: image-card1;
@@ -344,7 +165,6 @@ body {
 		#image-card2{
 			grid-area: image-card2;
 		}
-			
 
 		#image-card3{
 			grid-area: image-card3;
@@ -361,9 +181,7 @@ body {
 				"photo photo"
 				"card-icon card-title"
 				"card-text card-text";
-
 			}
-			
 
 				.photo{
 					grid-area: photo;
@@ -379,7 +197,6 @@ body {
 					max-height: 100%;
 					align-self: center;
 					justify-self: center;
-					
 				}
 
 				.card-title{
@@ -395,7 +212,6 @@ body {
 					font-weight: 700;
 					letter-spacing: 0px;
 					text-transform: none;
-
 				}
 
 				.card-text{
@@ -405,15 +221,12 @@ body {
 					max-height: 100%;
 					align-self: center;
 					justify-self: center;
-					
 				}		
 
 		#torto-bottom{
 			grid-area: torto-bottom;
 			background-color: white;
-
 		}
-	
 
 	#dados{
 		display:grid;
@@ -421,7 +234,7 @@ body {
 		gap: 15px;
 		text-align: center;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 150px 30px 160px 250px;
+		grid-template-rows: 150px 30px 160px 320px;
 		grid-template-areas: 
 		"dados-empresas dados-empresas"
 		"separador-linha separador-linha"
@@ -432,32 +245,41 @@ body {
 		#dados-empresas{
 			grid-area: dados-empresas;
 			padding-top: 50px;
-
 		}
 
 		#separador-linha{
 			grid-area: separador-linha;
 			width: 100vw;
-			
-
 		}
 
 		#empresas-cadastradas{
 			grid-area: empresas-cadastradas;
-
 		}
 
 		#empregos-gerados{
 			grid-area: empregos-gerados;
-
 		}
 
 		#faturamento-2018{
 			grid-area: faturamento-2018;
 			width: 650px;
-			
-			
+		}
 
+		.numero {
+			font-size: 70px;
+			line-height: 1em;
+			font-weight: 300;
+			color: #ff0707;
+			display: inline-block !important;
+			height: 1em;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		#mais-de {
+			max-width: 70%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 	#graficos-empresas{
@@ -506,6 +328,10 @@ body {
 			align-self: center;
 			justify-self: center;
 
+		}
+
+		.graficos {
+			text-align: center;
 		}
 
 
