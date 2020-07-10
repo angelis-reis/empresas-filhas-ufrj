@@ -340,46 +340,6 @@ body {
 
 
 
-		
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -391,50 +351,22 @@ body {
 
 	
 
-@media only screen and (min-width: 800px) and (max-width: 1150px){
 
-	#subtitle{
-		padding-right: 100px;
-		padding-left: 100px;
 
-	}
-}
 
-@media only screen and (min-width: 500px) and (max-width: 800px){
 
-	#subtitle{
-		padding-right: 50px;
-		padding-left: 50px;
-	}
-}
 
-@media only screen and (max-width: 600px){
-	.button1 {
-		display: block;
-		border-radius: 15px;
-		border-style: solid;
-		border-color: #78f0d3;
-		background: none;
-		font-size: 20px;
-		font-weight: bolder;
-		margin: 10px;
-		padding: 20px 43px;
-		font-family: "Open Sans", sans-serif;
-		cursor: pointer;
-	}
-}
 
-@media only screen and (max-width: 500px){
-	#subtitle{
-		padding-right: 20px;
-		padding-left: 20px;
-	}
-}
+
+
+
+
+
 
 
 
 @media only screen and (max-width: 1250px){
-	
+
 	#cards{
 		display: grid;
 		grid-template-columns: 1fr 600px 1fr;
@@ -449,115 +381,15 @@ body {
 		"..... image-card2 ....."
 		"..... image-card3 ....."
 		"torto-bottom torto-bottom torto-bottom";
-		
 	}
-
-
-
 }
 
-@media only screen and (max-width: 650px){
-	
-	#cards{
-		display: grid;
-		grid-template-columns: 1fr 450px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:15px;
-		background-color: #2c4059;
-		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";
-		
+@media only screen and (min-width: 800px) and (max-width: 1150px){
+
+	#subtitle{
+		padding-right: 100px;
+		padding-left: 100px;
 	}
-
-
-
-}
-
-@media only screen and (max-width: 500px){
-	
-	#cards{
-		display: grid;
-		grid-template-columns: 1fr 350px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:15px;
-		background-color: #2c4059;
-		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";
-		
-	}
-
-	#card-title-3{
-		font-size: 25px;
-
-	}
-
-	#faturamento-2018 {
-		width: 450px;
-		
-
-	}
-
-	#dados{
-		
-		grid-template-rows: 200px 30px 160px 250px;
-		
-	}
-
-}
-
-
-@media only screen and (max-width: 400px){
-
-	#faturamento-2018 h2{
-		font-size: 35px;
-	}
-
-}
-
-@media only screen and (max-width: 350px){
-
-	#cards{
-		display: grid;
-		grid-template-columns: 1fr 300px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
-		gap:15px;
-		background-color: #2c4059;
-		grid-template-areas: 
-		"torto-top torto-top torto-top"
-		"rede-empresas rede-empresas rede-empresas"
-		"separador-cards separador-cards separador-cards"
-		"..... image-card1 ....."
-		"..... image-card2 ....."
-		"..... image-card3 ....."
-		"torto-bottom torto-bottom torto-bottom";
-		
-	}
-
-	#card-title-3{
-		font-size: 18px;
-
-	}
-
-	#dados{
-		
-		grid-template-rows: 250px 30px 160px 250px;
-		
-	}
-
-
-
 }
 
 @media only screen and (max-width: 1000px){
@@ -574,7 +406,6 @@ body {
 		"sede"
 		"porte";
 	}
-
 }
 
 @media only screen and (max-width: 800px){
@@ -600,7 +431,34 @@ body {
 
 	#atuacao h4{
 		padding-bottom: 130px;
+	}
+}
 
+@media only screen and (min-width: 500px) and (max-width: 800px){
+
+	#subtitle{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 450px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
 }
 
 @media only screen and (max-width: 600px){
@@ -619,7 +477,21 @@ body {
 
 	#atuacao h4{
 		padding-bottom: 85px;
+	}
 
+	.button1 {
+		display: block;
+		border-radius: 15px;
+		border-style: solid;
+		border-color: #78f0d3;
+		background: none;
+		font-size: 20px;
+		font-weight: bolder;
+		margin: 10px;
+		padding: 20px 43px;
+		font-family: "Open Sans", sans-serif;
+		cursor: pointer;
+	}
 }
 
 @media only screen and (max-width: 500px){
@@ -638,7 +510,40 @@ body {
 
 	#atuacao h4{
 		padding-bottom: 85px;
+	}
 
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 350px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";
+	}
+
+	#card-title-3{
+		font-size: 25px;
+	}
+
+	#faturamento-2018 {
+		width: 450px;
+	}
+
+	#dados{		
+		grid-template-rows: 200px 30px 160px 400px;		
+	}
+
+	#subtitle{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 }
 
 @media only screen and (max-width: 400px){
@@ -657,6 +562,40 @@ body {
 
 	#atuacao h4{
 		padding-bottom: 85px;
+	}
 
+	#faturamento-2018 h2{
+		font-size: 35px;
+	}
 
+	.numero {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 350px){
+
+	#cards{
+		display: grid;
+		grid-template-columns: 1fr 300px 1fr;
+		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		gap:15px;
+		background-color: #2c4059;
+		grid-template-areas: 
+		"torto-top torto-top torto-top"
+		"rede-empresas rede-empresas rede-empresas"
+		"separador-cards separador-cards separador-cards"
+		"..... image-card1 ....."
+		"..... image-card2 ....."
+		"..... image-card3 ....."
+		"torto-bottom torto-bottom torto-bottom";		
+	}
+
+	#card-title-3{
+		font-size: 18px;
+	}
+
+	#dados{		
+		grid-template-rows: 250px 30px 160px 250px;		
+	}
 }
