@@ -58,10 +58,6 @@ body {
 	header {
 		margin-top: -16px;
 		background-image: url("../images/header/jr.jpg");
-		/* background-image: url("../images/header/jr-blue.jpg"); */
-		/* background-image: url("../images/header/jr-green.jpg"); */
-		/* background-image: url("../images/header/jr-pink.jpg"); */
-		
 		background-position: center 30%;
 		background-repeat: repeat;
 		background-size: auto;
@@ -177,13 +173,23 @@ body {
 	#title-empresas {
 		text-align: center;
 		padding-top: 50px;
-		padding-bottom: 50px;
+		
 	}
+
+	#sub-title-empresas {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
 
 	#list {
 		display: grid;
-		row-gap: 30px;
-		column-gap: 30px;
+		row-gap: 20px;
+		column-gap: 20px;
 		grid-template-columns: repeat(5, 1fr);
 		align-items: center;
 		justify-items: center;
@@ -197,20 +203,18 @@ body {
 			padding: 30px;
 			border-radius: 1rem;
 			border-style: solid;
-			width: 100px;
-			height: 100px;
+			border-color: black;
+			width: 130px;
+			height: 130px;
 			align-items: center;
 			justify-items: center;
 			justify-content: center;
 			align-content: center;
 		}
 
+		
 
-	footer{
-
-
-	}
-
+	
 		.logos {
 			display: grid;
 			grid-template-columns: 1fr 1fr 1fr;
@@ -328,6 +332,11 @@ body {
 		align-content: center;
 		padding-bottom: 40px;
 	}
+
+	#sub-title-empresas{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
 }
 
 
@@ -343,6 +352,11 @@ body {
 		justify-content: center;
 		align-content: center;
 		padding-bottom: 40px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 60px;
+		padding-right: 60px;
 	}
 }
 
@@ -386,6 +400,10 @@ body {
 		line-height: 62px;
 		font-weight: 700;
 		text-transform: uppercase;
+	}
+	#sub-title-empresas{
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 
@@ -481,6 +499,11 @@ body {
 		letter-spacing: 1px;
 		padding-bottom: 50px;
 		padding-top: 200px;
+	}
+
+	#sub-title-empresas{
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 

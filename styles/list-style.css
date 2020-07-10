@@ -58,16 +58,14 @@ body {
 	header {
 		margin-top: -16px;
 		background-image: url("../images/header/startup.jpg");
-		/* background-image: url("../images/header/startup-blue.jpg"); */
-		/* background-image: url("../images/header/startup-green.jpg"); */
-		/* background-image: url("../images/header/startup-pink.jpg"); */
-		background-position: center 30%;
-		background-repeat: repeat;
-		background-size: 120%;
+		background-position:center 30%;
+		background-repeat: no-repeat; 
+		background-size: cover;
 		height: 582px;
 		padding-top: 0px;
 		margin-left: -10px;
 		margin-right: -10px;
+		
 	}
 
 		#cabecalho {	
@@ -86,6 +84,7 @@ body {
 			margin-bottom: 15px;
 			justify-content: space-between;
 			background-color: black;
+			z-index: 2;
 		}
 
 			
@@ -165,7 +164,8 @@ body {
 		#title-large {
 			text-align: center;
 			color: #ffffff;
-			font-size: 47px;
+			font-size: 57px;
+			font-weight: bolder;
 			line-height: 60px;
 			letter-spacing: 1px;
 			padding-bottom: 50px;
@@ -181,8 +181,8 @@ body {
 
 	#list {
 		display: grid;
-		row-gap: 30px;
-		column-gap: 30px;
+		row-gap: 20px;
+		column-gap: 20px;
 		grid-template-columns: repeat(5, 1fr);
 		align-items: center;
 		justify-items: center;
@@ -196,8 +196,8 @@ body {
 			padding: 30px;
 			border-radius: 1rem;
 			border-style: solid;
-			width: 100px;
-			height: 100px;
+			width: 130px;
+			height: 130px;
 			align-items: center;
 			justify-items: center;
 			justify-content: center;
@@ -205,10 +205,7 @@ body {
 		}
 
 
-	footer{
-
-
-	}
+	
 
 		.logos {
 			display: grid;
