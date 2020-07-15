@@ -1,0 +1,351 @@
+html, body, h2
+{  
+    margin: 0;  
+    padding: 0; 
+}
+
+
+
+#cabecalho {	
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;	
+    max-width: auto;	
+    height: 110px;
+    margin: 0 auto;
+    padding-top: 0px;
+    margin-top: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    background-color: black;
+}
+
+    #logo {	
+        align-items: center;
+        margin-top: 10px;
+        padding-left: 60px;
+        transform: scale(0.8);
+        margin-left: -11px;
+        height: 100px;
+        width: auto;
+    }
+
+    #logo-drop-down {
+        display: none;
+        width: 70px;
+        height: 70px;
+        padding-top: 25px;
+        padding-right: 40px;
+    }
+
+    #links {
+        align-items: center;
+        padding-right: 40px;
+    }
+
+        #links ul {
+            padding: 0px;
+            margin: 0px;
+            float: right;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-right: 15px;
+        }
+
+        #links li {
+            display: inline;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        #links a {
+            padding: 0px 5px;
+            display: inline-block;
+            font-size: 12px;
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 900;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            line-height: 140px;
+        }
+
+        #links a:hover {
+            font-size: 13px;
+            color: #39ff14;
+        }
+
+    #links2 {
+        display: none;
+        align-items: center;
+        padding-right: 40px;
+    }
+
+        #links2 ul {
+            padding: 0px;
+            margin: 0px;
+            float: right;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-right: 15px;
+        }
+
+        #links2 li {
+            display: inline;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        #links2 a {
+            padding: 0px 5px;
+            display: inline-block;
+            font-size: 12px;
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 900;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            line-height: 140px;
+        }
+
+        #links2 a:hover {
+            font-size: 13px;
+            color: #39ff14;
+        }
+
+    #links3 {
+        display: none;
+        align-items: center;
+        padding-right: 40px;
+    }
+
+        #links3 ul {
+            padding: 0px;
+            margin: 0px;
+            float: right;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-right: 15px;
+        }
+
+        #links3 li {
+            display: inline;
+        }
+
+        a:links3 {
+            text-decoration: none;
+        }
+
+        #links3 a {
+            padding: 0px 5px;
+            display: inline-block;
+            font-size: 12px;
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 900;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            line-height: 140px;
+        }
+
+        #links3 a:hover {
+            font-size: 13px;
+            color: #39ff14;
+        }
+
+    #links4 {
+        display: none;
+        align-items: center;
+        padding-right: 40px;
+    }
+
+        #links4 ul {
+            padding: 0px;
+            margin: 0px;
+            float: right;
+            list-style-type: none;
+            margin-top: 0px;
+            margin-right: 15px;
+        }
+
+        #links4 li {
+            display: inline;
+        }
+
+        a:link4 {
+            text-decoration: none;
+        }
+
+        #links4 a {
+            padding: 0px 5px;
+            display: inline-block;
+            font-size: 12px;
+            color: #ffffff;
+            font-style: normal;
+            font-weight: 900;
+            letter-spacing: 0px;
+            text-transform: uppercase;
+            line-height: 140px;
+        }
+
+        #links4 a:hover {
+            font-size: 13px;
+            color: #39ff14;
+        }
+
+
+    #links-drop-down {
+        display: none;
+    }
+
+        #hamburguer{
+            display: none;
+            width: 70px;
+            height: 70px;
+            padding-top: 25px;
+            padding-left: 50px;
+        }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1050px) {
+
+    #links{
+        display: none;
+    }
+
+    #links2{
+        display: inherit;
+    }
+
+
+}
+
+@media only screen and (max-width: 850px) {
+
+    #links{
+        display: none;
+    }
+
+    #links2{
+        display: none;
+    }
+
+    #links3{
+        display: inherit;
+    }
+
+    #logo{
+        display:none;
+    }
+
+    #logo-drop-down{
+        display: inherit;
+    }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    #links{
+        display: none;
+    }
+
+    #links2{
+        display: none;
+    }
+
+    #links3{
+        display: none;
+    }
+
+    #links4{
+        display: inherit;
+    }
+
+    #links4 a {
+        padding: 0px 3px;
+        padding-right: 10px;
+        display: inline-block;
+        font-size: 11px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        line-height: 140px;
+    }
+
+    #logo{
+        display:none;
+    }
+
+    #logo-drop-down{
+        display: inherit;
+    }
+
+
+}
+
+@media only screen and (max-width: 350px) {
+
+    #links{
+        display: none;
+    }
+
+    #links2{
+        display: none;
+    }
+
+    #links3{
+        display: none;
+    }
+
+    #links4{
+        display: inherit;
+        padding-right: 80px;
+    }
+
+    #links4 a {
+        padding: 0px 3px;
+        padding-right: 10px;
+        display: inline-block;
+        font-size: 11px;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+        line-height: 140px;
+    }
+
+    #logo{
+        display:none;
+    }
+
+    #logo-drop-down{
+        display: inherit;
+    }
+
+
+}
+
+
+
+
