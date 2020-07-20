@@ -558,7 +558,7 @@ body {
 	#cards{
 		display: grid;
 		grid-template-columns: 1fr 350px 1fr;
-		grid-template-rows: 1px 130px 50px 600px 600px 600px 50px;
+		grid-template-rows: 1px 130px 50px 600px 600px 650px 50px;
 		gap:15px;
 		background-color: #2c4059;
 		grid-template-areas: 
