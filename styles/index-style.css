@@ -1,4 +1,5 @@
 html, body, h2, h1, h3, h4, p{  
+	font-family: "Montserrat", sans-serif;
     margin: 0;  
 	padding: 0; 
 	color: black;
@@ -31,7 +32,6 @@ h2 {
 }
 
 p {
-	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	font-style: normal;
@@ -45,9 +45,8 @@ img {
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
-	font-size: 16px;
-	font-weight: 400;
+	
+	
 }
 
 	header {
@@ -65,7 +64,7 @@ body {
 		#title-large {
 			text-align: center;
 			color: #ffffff;
-			font-size: 47px;
+			font-size: 57px;
 			line-height: 60px;
 			letter-spacing: 1px;
 			padding-bottom: 50px;

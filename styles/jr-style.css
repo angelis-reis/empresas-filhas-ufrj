@@ -1,7 +1,8 @@
-html, body, h2
-{  
+html, body, h2, h1, h3, h4, p{  
+	font-family: "Montserrat", sans-serif;
     margin: 0;  
-    padding: 0; 
+	padding: 0; 
+	color: black;
 }
 
 html {
@@ -9,10 +10,10 @@ html {
 	overflow: auto;
 	height: auto;
 	scroll-behavior: smooth;
+	
 }
 
 h4 {
-	color: rgb(10, 3, 107);
 	font-size: 23px;
 	line-height: 31px;
 	font-style: normal;
@@ -22,7 +23,6 @@ h4 {
 }
 
 h2 {
-	color: rgb(10, 3, 107);
 	font-size: 43px;
 	line-height: 47px;
 	font-style: normal;
@@ -32,8 +32,6 @@ h2 {
 }
 
 p {
-	color: rgb(10, 3, 107);
-	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 	font-style: normal;
@@ -44,13 +42,6 @@ p {
 
 img {
 	max-width: 100%;
-}
-
-body {
-	font-family: "Montserrat", sans-serif;
-	color: rgb(10, 3, 107);
-	font-size: 16px;
-	font-weight: 400;
 }
 
 
@@ -67,7 +58,7 @@ body {
 		margin-right: -10px;
 	}
 
-		#cabecalho {	
+		/* #cabecalho {	
 			display: flex;
 			position: fixed;
 			top: 0;
@@ -83,7 +74,7 @@ body {
 			margin-bottom: 15px;
 			justify-content: space-between;
 			background-color: black;
-		}
+		} */
 
 			
 
@@ -149,13 +140,13 @@ body {
 				display: none;
 			}
 
-				#hamburguer{
+				/* #hamburguer{
 					display: none;
 					width: 70px;
 					height: 70px;
 					padding-top: 25px;
 					padding-left: 50px;
-				}
+				} */
 
 
 
@@ -535,7 +526,7 @@ body {
 
 @media only screen and (max-width: 850px) {
 
-	#cabecalho {	
+	/* #cabecalho {	
 		display: flex;
 		position: fixed;
 		top: 0;
@@ -551,7 +542,7 @@ body {
 		margin-bottom: 15px;
 		justify-content: space-between;		
 		background-color: black;
-	}
+	} */
 
 	#logo {	
 		display: none;
@@ -579,7 +570,7 @@ body {
 		margin-right: auto;		
 	}
 
-	#hamburguer{
+	/* #hamburguer{
 		display: inherit;		
 		width: 70px;
 		height: 70px;			
@@ -588,7 +579,7 @@ body {
 
 	#cabecalho img:hover{
 		display: none;
-	}
+	} */
 
 	
 
@@ -629,10 +620,6 @@ body {
 		text-transform: uppercase;
 		line-height: 80px;
 	}
-	
-
-
-	
 
 }	
 
