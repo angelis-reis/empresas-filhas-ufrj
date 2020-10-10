@@ -1,5 +1,6 @@
-# HTML+CSS website
+# HTML+CSS + Vanilla Js
+Rio de Janeiro Federal University Daugther Companies Website
 
-MVP website for Empresas-Filhas da UFRJ
+Developed with no framework, just HTML, CSS an Js.
 
-https://angelis-reis.github.io/empresas-filhas-ufrj/
+https://www.empresasfilhasufrj.org
