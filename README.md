@@ -1,5 +1,12 @@
-# HTML+CSS website
+Site responsivo desenvolvido em HTML, CSS e JS puro. Integrado com Google Analytics
 
-MVP website for Empresas-Filhas da UFRJ
+Site do projeto "Levantamento sobre Empresas-Filhas UFRJ"
 
-https://angelis-reis.github.io/empresas-filhas-ufrj/
+# HTML+ CSS + Vanilla Js
+
+
+Rio de Janeiro Federal University Daugther Companies Website
+
+Developed with no framework, just HTML, CSS an Js.
+
+https://www.empresasfilhasufrj.org
